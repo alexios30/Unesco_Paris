@@ -4,24 +4,41 @@ body {
   font-style: Dyno;
 }
 
-a {
-  text-decoration: none;
-  color: #F8D03E;
+ul { list-style-type: none; }
+
+#menu {
+  display: none;
 }
 
-a: visited { color: #F8D03E; }
-
-a:visited:hover { color: #00F; }
-
 div.navig { display: flex; }
+
+button.menu {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1.5 / 1;
+  background-color: #333;
+  width: 3.3%;
+  gap: 1px;
+  border: none;
+}
+
+button.menu > div.rectangle {
+  margin: auto;
+  width: 80%;
+  height: 20%;
+  background-color: #ea5c0d;
+  color: #8D8D8D;
+  border-radius: 50px;
+}
 
 div.research {
   background-color: #FFF;
   text-align: left;
   margin-right: 10%;
-  margin-left: 50%;
-  padding-right: 20%;
+  margin-left: 55%;
+  width: 25%;
   padding-left: 50px;
+  padding-right: 13px;
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 20px;
@@ -47,7 +64,7 @@ div.about {
 
 .about span.gros { font-size: 65px; }
 
-.about div.plusInfo {
+.about button.plusInfo {
   margin-left: 75%;
   margin-top: 50px;
   width: 200px;
@@ -55,6 +72,10 @@ div.about {
   border: 3px solid #F8B03E;
   font-size: 18px;
   color: #F8D03E;
+}
+
+.about button.plusInfo:hover:active {
+  color: #00F;
 }
 
 div.Evenements {
@@ -102,7 +123,22 @@ div.Decouvrez {
   box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.50), 0px -50px 100px 0px #000;
   padding-top: 100px;
   padding-left: 10%;
+  padding-right: 10%;
   font-size: 60px;
+}
+
+div.box {
+  display: flex;
+  margin-top: 50px;
+  gap: 5%;
+  
+}
+
+div.box > div.cadrant {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border: 5px solid #fff;
 }
 
 div.footer {
@@ -111,11 +147,3 @@ div.footer {
   background-color: #000;
 }
 
-div.box {
-  display: flex;
-  margin-top: 50px;
-}
-
-div.box > div.cadrant {
-  width: 25%
-}
