@@ -70,18 +70,11 @@ div.sous {
   text-align: center;
 }
 
-div.about {
-  text-align: center;
-}
+div.about { text-align: center; }
 
-div.MCN{
+img.LogoMCN{
   height: 150;
   width: 200;
-  background-image: url('Images/logo_MCN_original.png');
-  background-size: cover;
-  background-position: center;
-  padding-left: 15%;
-  padding-right: 15%;
 }
 
 div.Paris {
