@@ -122,6 +122,8 @@ button.plus:hover:active { color: #00F; }
   width: 230px;
 }
 
+#exception2 { margin-left: 65%; }
+
 div.Participez {
   margin-top: 100px;
   box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.50), 0px -50px 100px 0px #000;
@@ -163,6 +165,7 @@ div.image {
   width: 50%;
   margin-bottom: 20px;
   border: 1px solid #000;
+  text-align: center;
 }
 
 div.Parcourez {
@@ -177,6 +180,8 @@ div.box {
   display: flex;
   margin-top: 50px;
   gap: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 div.box > div.cadrant {
