@@ -11,8 +11,6 @@ div.navigbar {
 
 div.navig {
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: #000;
 }
 
@@ -39,6 +37,8 @@ button.rectangles > div.rectangle {
 }
 
 #menu {
+  position: absolute;
+  top: 88px;
   display: none;
   background-color: #000;
   color: #eee;
@@ -55,9 +55,14 @@ div.sous {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #LogoMCN {
   height: 60px;
-  margin-top:auto ;
+  margin-top: auto;
   margin-bottom: auto;
 }
 
@@ -82,7 +87,61 @@ div.research {
 
 #loupe { float: right; }
 
-div.about { text-align: center; }
+button.menul {
+  position: absolute;
+  display: flex;
+  background-color: #000;
+  border: 5px ridge #EB5C0D;
+  width: 60px;
+  height: 60px;
+  left: 95%;
+  top: 18px;
+}
+
+div.bleu {
+  background-color: #00f;
+  width: 40%;
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.blanc {
+  background-color: #fff;
+  width: 40%;
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.rouge {
+  background-color: #f00;
+  width: 40%;
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#langues {
+  position: absolute;
+  display: none;
+  background-color: #000;
+  flex-direction: column;
+  left: 95%;
+  top: 75px;
+  border: 5px ridge;
+}
+
+div.sousl {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#en { border-bottom: 5px ridge; }
 
 div.Paris {
   height: 100%;
@@ -92,7 +151,17 @@ div.Paris {
   background-position: center;
   padding-left: 15%;
   padding-right: 15%;
-  color: #F8B03E; 
+  color: #fff; 
+  font-size: 40px;
+  text-shadow: 4px 4px black;
+}
+
+div.Paris > span { font-size: 100px; }
+
+div.about {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 
 .about span.Titre { font-size: 50px; }
@@ -122,6 +191,8 @@ button.plus:hover:active { color: #00F; }
   width: 230px;
 }
 
+#exception2 { margin-left: 65%; }
+
 div.Participez {
   margin-top: 100px;
   box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.50), 0px -50px 100px 0px #000;
@@ -146,7 +217,7 @@ div.ligne {
 
 div.ligne2{
   border-top: 2px solid #EB5C0D;
-  margin: left 0%;
+  margin-left: 0%;
   margin-right: 0%;
   margin-top:10px;
 }
@@ -163,6 +234,7 @@ div.image {
   width: 50%;
   margin-bottom: 20px;
   border: 1px solid #000;
+  text-align: center;
 }
 
 div.Parcourez {
@@ -177,6 +249,8 @@ div.box {
   display: flex;
   margin-top: 50px;
   gap: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 div.box > div.cadrant {
@@ -214,10 +288,4 @@ div.box2 > div.cadrant {
   margin-right: auto;
   width: 25%;
   border: 5px solid #fff;
-}
-
-div.footer {
-  margin-top: 300px;
-  height: 350px;
-  background-color: #000;
 }
