@@ -234,8 +234,15 @@ div.image {
   width: 50%;
   margin-bottom: 20px;
   border: 1px solid #000;
-  text-align: center;
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat
 }
+
+#e1 { background-image: ;}
+#e2 { background-image: ;}
+#e3 { background-image: ;}
+#e4 { background-image: ;}
 
 div.Parcourez {
   margin-top: 100px;
@@ -288,4 +295,16 @@ div.box2 > div.cadrant {
   margin-right: auto;
   width: 25%;
   border: 5px solid #fff;
+  height: 100%;
+  width: 100%;
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat
 }
+
+#m1 { background-image: ;}
+#m2 { background-image: ;}
+#m3 { background-image: ;}
+#m4 { background-image: ;}
+#m5 { background-image: ;}
+#m6 { background-image: ;}
