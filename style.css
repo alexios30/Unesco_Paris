@@ -11,6 +11,8 @@ div.navigbar {
 
 div.navig {
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #000;
 }
 
@@ -18,10 +20,11 @@ button.rectangles {
   display: flex;
   flex-direction: column;
   background-color: #000;
-  width: 65px;
+  width: 70px;
   height: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 10px;
   gap: 1px;
   border: none;
 }
@@ -34,26 +37,6 @@ button.rectangles > div.rectangle {
   color: #8D8D8D;
   border-radius: 50px;
 }
-
-div.research {
-  background-color: #FFF;
-  text-align: left;
-  margin-right: 10%;
-  margin-left: 55%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 25%;
-  padding-right: 13px;
-  padding-left: 50px;
-  padding-top: 10px;
-  padding-bottom: auto;
-  font-size: 20px;
-  color: #8D8D8D;
-  border: 3px solid #BA4503;
-  border-radius: 50px;  
-}
-
-#loupe { float: right; }
 
 #menu {
   display: none;
@@ -72,12 +55,34 @@ div.sous {
   text-align: center;
 }
 
-div.about { text-align: center; }
-
-img.LogoMCN{
-  height: 150;
-  width: 200;
+#LogoMCN {
+  height: 60px;
+  margin-top:auto ;
+  margin-bottom: auto;
 }
+
+div.research {
+  background-color: #FFF;
+  text-align: left;
+  margin-right: 10%;
+  margin-left: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30%;
+  height: 35px;
+  padding-right: 13px;
+  padding-left: 50px;
+  padding-top: 9px;
+  padding-bottom: auto;
+  font-size: 20px;
+  color: #8D8D8D;
+  border: 3px solid #BA4503;
+  border-radius: 50px;  
+}
+
+#loupe { float: right; }
+
+div.about { text-align: center; }
 
 div.Paris {
   height: 100%;
@@ -116,8 +121,6 @@ button.plus:hover:active { color: #00F; }
   margin-left: 43.2%;
   width: 230px;
 }
-
-#exception2 { margin-left: 65%; }
 
 div.Participez {
   margin-top: 100px;
@@ -160,7 +163,6 @@ div.image {
   width: 50%;
   margin-bottom: 20px;
   border: 1px solid #000;
-  text-align: center;
 }
 
 div.Parcourez {
@@ -175,8 +177,6 @@ div.box {
   display: flex;
   margin-top: 50px;
   gap: 5%;
-  padding-left: 8%;
-  padding-right: 8%;
 }
 
 div.box > div.cadrant {
