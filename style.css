@@ -1,7 +1,7 @@
 body {
   background-color: #333;
   color: #EB5C0D;
-  font-style: Dyno;
+  font-style: "Dyno";
 }
 
 div.navigbar { 
@@ -385,4 +385,54 @@ footer > p {
     font-style: italic;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: "Dyno";
+    src: url("Fonts/DYNO/Dyno_Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dyno_Bold";
+    src: url("Fonts/DYNO/Dyno\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "Dyno_Italic";
+    src: url("Fonts/DYNO/Dyno\ Italic.ttf");
+}
+
+@font-face {
+    font-family: "Dyno_Bold_Italic";
+    src: url("Fonts/DYNO/Dyno\ Bold\ Italic.ttf");
+}
+
+@font-face {
+    font-family: "Cicle_Fina";
+    src: url("Fonts/CICLE/Cicle\ Fina.ttf");
+}
+
+@font-face {
+    font-family: "Cicle_Fina _Italic";
+    src: url("Fonts/CICLE/Cicle\ Fina\ Italic.ttf");
+}
+
+@font-face {
+    font-family: "Cicle_Semi";
+    src: url("Fonts/CICLE/Cicle\ Semi.ttf");
+}
+
+@font-face {
+    font-family: "Cicle_Semi_Italic";
+    src: url("Fonts/CICLE/Cicle\ Semi\ Italic.ttf")
+}
+
+@font-face {
+    font-family: "Cicle_Gordita";
+    src: url("Fonts/CICLE/Cicle\ Gordita.ttf")
+}
+
+@font-face {
+    font-family: "Cicle_Gordita_Italic";
+    src: url("Fonts/CICLE/Cicle\ Gordita\ Italic.ttf")
 }
