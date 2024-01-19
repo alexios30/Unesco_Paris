@@ -88,38 +88,20 @@ div.research {
 #loupe { float: right; }
 
 button.menul {
-  position: absolute;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
   background-color: #000;
-  border: 5px ridge #EB5C0D;
-  width: 60px;
+  border: none;
+  width: 70px;
   height: 60px;
   left: 95%;
   top: 18px;
-}
-
-div.bleu {
-  background-color: #00f;
-  width: 40%;
-  height: 70%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-div.blanc {
-  background-color: #fff;
-  width: 40%;
-  height: 70%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-div.rouge {
-  background-color: #f00;
-  width: 40%;
-  height: 70%;
-  margin-top: auto;
-  margin-bottom: auto;
+  font-size: 15px;
+  color: #fff;
+  gap: 5px;
 }
 
 #langues {
@@ -128,29 +110,31 @@ div.rouge {
   background-color: #000;
   flex-direction: column;
   left: 95%;
-  top: 75px;
-  border: 5px ridge;
+  top: 77px;
 }
 
 div.sousl {
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 69px;
+  height: 60px;
+  font-size: 15px;
+  gap: 5px;
 }
 
-#en { border-bottom: 5px ridge; }
+img.langue {
+  width: 40px;
+  height: 40px;
+}
 
 div.Paris {
-  height: 100%;
-  width: 100%;
   background-image: url('Images/Paris.jpg'); 
   background-size: cover ;
   background-position: center;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 15%;
   color: #fff; 
   font-size: 40px;
   text-shadow: 4px 4px black;
