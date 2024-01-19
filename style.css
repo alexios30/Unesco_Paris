@@ -129,7 +129,9 @@ img.langue {
 }
 
 div.Paris {
-  background-image: url('Images/Paris.jpg'); 
+  width: 69.4vw;
+  height: 60vh;
+  background-image: url(''); 
   background-size: cover ;
   background-position: center;
   padding-left: 15%;
@@ -137,7 +139,7 @@ div.Paris {
   padding-top: 15%;
   color: #fff; 
   font-size: 40px;
-  text-shadow: 4px 4px black;
+  text-shadow: 0px 5px 10px #000;
 }
 
 div.Paris > span { font-size: 100px; }
