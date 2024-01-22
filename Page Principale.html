@@ -7,27 +7,21 @@
   <div class="navigbar">
     <div class="navig">
       <button onclick="myFunction('menu')" class="rectangles">
-        <div class="rectangle">
-        </div>
-        <div class="rectangle">
-        </div>
-        <div class="rectangle">
-        </div>
+        <img id="hambmenu" src="https://i.imgur.com/MCTSRpB.png ">
       </button>
-      <img id="LogoMCN" src="Images/logo_MCN_original.png">
+      <a class="logo" href=""><img id="LogoMCN" src="https://i.imgur.com/FYHl6nN.png"></a>
       <div class="research">
-        Rechercher
-        <img id="loupe" src="#">
+        <span>Rechercher</span>
       </div>
       <button class="menul" onClick="myFunction('langues')">
-        <img src="#" class="langue"/>FR
+        <img src="https://i.imgur.com/moe4dvF.png" class="langue"/>&nbsp;FR
       </button>
       <div id="langues">
         <a href=""><div class="sousl">
-          <img src="#" class="langue"/>EN
+          <img src="https://i.imgur.com/ZUd06Ts.png" class="langue"/>&nbsp;EN
         </div></a>
         <a href=""><div class="sousl">
-          <img src="#" class="langue"/>ES
+          <img src="https://i.imgur.com/6MrXRwG.png" class="langue"/>&nbsp;ES
         </div></a>
       </div>
     </div>
@@ -48,12 +42,12 @@
   <div class="ligne2">
   </div>
   <div class="Paris">
-      <span>Paris</span><br/>
+    <span>Paris</span><br/>
       Un patrimoine vivant, une culture &eacute;ternelle,<br/>
       Un t&eacute;moin d'un pass&eacute; glorieux
   </div>
   <div class="about">
-    <br/> 
+    <br/>
     <br/>
     <span class="Titre"><b><u>Capitale</u> de la France, Paris est la ville <u>la plus visit&eacute;e au monde</u> depuis <u><span class="gros">25</span> ans</u></b>.</span><br/><br/><br/><br/><br/>
   <span class="texte">Cette ville regorge de monuments et d’endroits à visiter. A l’aide de parcours de d&eacute;couverte des monuments embl&eacute;matiques ou de lieux atypiques, explorez cette ville charg&eacute;e d’histoire, plac&eacute;e au centre du pratrimoine fran&ccedil;ais.</span>
@@ -70,12 +64,12 @@
     <div class="ligne">
     </div>
     <div class="bloc">
-      <div class="image" id="e1"></div>
-      <div class="image" id="e2"></div>
+      <div class="image" id="e1"><div class="text">P&eacute;riode, description, etc</div></div>
+      <div class="image" id="e2"><div class="text">P&eacute;riode, description, etc</div></div>
     </div>
     <div class="bloc">
-      <div class="image" id="e3"></div>
-      <div class="image" id="e4"></div>
+      <div class="image" id="e3"><div class="text">P&eacute;riode, description, etc</div></div>
+      <div class="image" id="e4"><div class="text">P&eacute;riode, description, etc</div></div>
     </div>
     <button class="plus" id="exception">
       Voir plus d&apos;&eacute;v&egrave;nements >
@@ -104,14 +98,14 @@
     <div class="ligne">
     </div>
     <div class="box2">
-      <div class="cadrant" id="m1"></div>
-      <div class="cadrant" id="m2"></div>
-      <div class="cadrant" id="m3"></div>
+      <div class="cadrant" id="m1"><div class="text">monument</div></div>
+      <div class="cadrant" id="m2"><div class="text">monument</div></div>
+      <div class="cadrant" id="m3"><div class="text">monument</div></div>
     </div>
     <div class="box2">
-      <div class="cadrant" id="m4"></div>
-      <div class="cadrant" id="m5"></div>
-      <div class="cadrant" id="m6"></div>
+      <div class="cadrant" id="m4"><div class="text">monument</div></div>
+      <div class="cadrant" id="m5"><div class="text">monument</div></div>
+      <div class="cadrant" id="m6"><div class="text">monument</div></div>
     </div>
   </div>
   <footer>
@@ -143,15 +137,5 @@
       &copy; Tous droits r&eacute;serv&eacute;s.
     </p>
   </footer>
-  <script>
-    function myFunction(elem) {
-      var x = document.getElementById(elem);
-      if (x.style.display === "none") {
-        x.style.display = "flex";
-      } else {
-        x.style.display = "none";
-      }
-    } 
-  </script>
 </body>
 </html>
