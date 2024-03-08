@@ -12,6 +12,8 @@ body {
   font-style: "Dyno";
 }
 
+button:hover { cursor: pointer; }
+
 /* Début barre de navigation */
 
 div.navigbar { 
