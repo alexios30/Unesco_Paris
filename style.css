@@ -272,7 +272,7 @@ div.bloc > div.image > div.text {
 text-align: center;
 margin-top: 43.5%;
 height: 28%;
-background-color: rgba(0, 0, 0, 0.12);
+background-color: rgba(0, 0, 0, 0.75);
 color: #fff;
 font-size: 35px;
 }
@@ -367,11 +367,13 @@ aspect-ratio: 1/1.33;
 }
 
 div.box2 > div.cadrant > div.text {
-text-align: center;
-margin-top: 95%;
-height: 28%;
-background-color: rgba(0, 0, 0, 0.3);
-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95%;
+  height: 28%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 
 #m1 { background-image: ;}
