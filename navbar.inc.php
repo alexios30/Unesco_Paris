@@ -41,10 +41,10 @@ echo '
   
   <div id="menu">
     <div class="sous">
-      <a href="#">Participer</a>
+      <a href="participer_1.php">Participer</a>
     </div>
     <div class="sous">
-      <a href="#">Parcourir</a>
+      <a href="">Parcourir</a>
     </div>
     <div class="sous">
       <a href="#">D&eacute;couvrir</a>

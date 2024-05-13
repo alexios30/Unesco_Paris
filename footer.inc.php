@@ -12,8 +12,6 @@ echo '
   <div class="links">
     <a href="">Credits</a> <br>
     <a href="">Mentions l&eacutegales</a> <br>
-    <a href="">Lorem ipsum</a> <br>
-    <a href="">Lorem ipsum</a>
   </div>
 </div>
 <hr width="90%" style="margin:50px auto 40px auto">
