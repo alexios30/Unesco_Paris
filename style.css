@@ -170,7 +170,7 @@ height: 40px;
 div.Paris {
 width: 69.4vw;
 height: 60vh;
-background-image: url(''); 
+background-image: url('Images/tour_eiffel.jpg'); 
 background-size: cover ;
 background-position: center;
 padding-left: 15%;
@@ -180,6 +180,19 @@ color: #fff;
 font-size: 40px;
 text-shadow: 0px 5px 10px #000;
 }
+div.Paris2 {
+  width: 69.4vw;
+  height: 60vh;
+  background-image: url(''); 
+  background-size: cover ;
+  background-position: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 15%;
+  color: #fff; 
+  font-size: 40px;
+  text-shadow: 0px 5px 10px #000;
+  }
 
 div.Paris > span { font-size: 100px; }
 
@@ -191,7 +204,7 @@ div.about {
 padding-left: 15%;
 padding-right: 15%;
 text-align: center;
-background-color: linear-gradient(rgba(52, 52, 52, 1) ; rbga(52, 52, 52, 0.54));
+background-color: linear-gradient(rgba(52, 52, 52, 1)  rbga(52, 52, 52, 0.54));
 }
 
 .about span.Titre { font-size: 50px; }
@@ -279,26 +292,26 @@ div.bloc > div.image > div.text {
 }
 
 #e1 {
-background-image: ;
-border-radius: 100px 10px 10px 10px; 
-}
-
-#e2 {
-background-image: ;
-border-radius: 10px 100px 10px 10px; 
-}
-
-#e3 {
-background-image: ;
-border-radius: 10px 10px 10px 100px; 
-}
-
-#e3 > div.text { border-radius: 10px 10px 10px 100px; }
-
-#e4 {
-background-image: ;
-border-radius: 10px 10px 100px 10px; 
-}
+  background-image:url('Images/ev2.jpg') ;
+  border-radius: 100px 10px 10px 10px; 
+  }
+  
+  #e2 {
+  background-image:url('Images/ev3.jpg') ;
+  border-radius: 10px 100px 10px 10px; 
+  }
+  
+  #e3 {
+  background-image:url('Images/ev4.jpg') ;
+  border-radius: 10px 10px 10px 100px; 
+  }
+  
+  #e3 > div.text { border-radius: 10px 10px 10px 100px; }
+  
+  #e4 {
+  background-image:url('Images/MarchéNoel.jpg') ;
+  border-radius: 10px 10px 100px 10px; 
+  }
 
 #e4 > div.text { border-radius: 10px 10px 100px 10px; }
 
@@ -377,12 +390,13 @@ div.box2 > div.cadrant > div.text {
   color: #fff;
 }
 
-#m1 { background-image: ;}
-#m2 { background-image: ;}
-#m3 { background-image: ;}
-#m4 { background-image: ;}
-#m5 { background-image: ;}
-#m6 { background-image: ;}
+#m1 { background-image: url('Images/Triomphe.jpg');}
+#m2 { background-image:url('Images/Louvres.jpg') ;}
+#m3 { background-image: url('Images/NotreDame.jpg');}
+#m4 { background-image:url('Images/VINCENNE.jpg') ;}
+#m5 { background-image: url('Images/opera.jpg');}
+#m6 { background-image:url('Images/invalide.jpg') ;}
+
 
 /* Fin Découvrez */
 
