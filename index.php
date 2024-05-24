@@ -62,10 +62,10 @@
     <div class="ligne"></div>
     <div class="box">
       <div class="cadrant">
-        <img id="monument" src="#">
+        <img id="monument" src="Images/parcourir_1.jpg">
       </div>
       <div class="description">
-        ertygjhg
+        Venez parcourir le Grand Paris !
         <button class="plus" id="exception2" onclick="window.location.href='Parcourir.php'">
           C&apos;est parti ! >
         </button>
