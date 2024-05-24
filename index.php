@@ -50,7 +50,7 @@
       <div class="image click" id="e3"><div class="text">P&eacute;riode, description, etc</div></div>
       <div class="image click" id="e4"><div class="text">P&eacute;riode, description, etc</div></div>
     </div>
-    <button class="plus" id="exception">
+    <button class="plus" id="exception"  onclick="window.location.href='participer_1.php'">
       Voir plus d&apos;&eacute;v&egrave;nements >
     </button>
   </div>
@@ -66,7 +66,7 @@
       </div>
       <div class="description">
         ertygjhg
-        <button class="plus" id="exception2">
+        <button class="plus" id="exception2" onclick="window.location.href='Parcourir.php'">
           C&apos;est parti ! >
         </button>
       </div>
@@ -91,6 +91,10 @@
       <div class="cadrant click" id="m5"  onclick="window.location.href='Opera.html'"><div class="text">Op&eacute;ra</div></div>
       <div class="cadrant click" id="m6"  onclick="window.location.href='Invalide.html'"><div class="text">H&ocirc;tel des Invalides</div></div>
     </div>
+    <button class="plus" onclick="window.location.href='Decouvrir.php'">
+    Plus d&apos;informations >
+  </button>
+
   </div>
 
   <!-- Footer -->
