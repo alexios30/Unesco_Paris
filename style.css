@@ -10,7 +10,7 @@ button:hover { cursor: pointer; }
 div.Paris {
 width: 69.4vw;
 height: 60vh;
-background-image: url(''); 
+background-image: url('Images/Paris.jpg'); 
 background-size: cover ;
 background-position: center;
 padding-left: 15%;
