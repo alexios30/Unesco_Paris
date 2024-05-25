@@ -7,7 +7,7 @@ echo '
     
     <!-- Logo MCN -->
     
-    <a class="logo" href=""><img id="LogoMCN" src="https://i.imgur.com/FYHl6nN.png"></a>
+    <a class="logo" href="index.php"><img id="LogoMCN" src="https://i.imgur.com/FYHl6nN.png"></a>
     
     <!-- Menu des langues -->
     

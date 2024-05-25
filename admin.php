@@ -6,10 +6,26 @@ if (isset($_POST["email"]) && isset($_POST["mdp"])) {
     $email = $_POST["email"];
     $mdp = md5($_POST["mdp"]);
 
-    $results = $cnx->query("SELECT COUNT(*) FROM login WHERE id = '".$email."'"." AND password = '".$mdp."'");
-    if ($results != 1) {
+    $results = $cnx->query("SELECT COUNT(*) FROM login WHERE email = '".$email."' AND password = '".$mdp."'");
+    $ligne = $results->fetch(PDO::FETCH_OBJ);
+    if ($ligne->count != 1) {
       header("location: admin_connexion.php?r=error");
     }
+    else {
+      session_start();
+      $_SESSION["email"] = $email;
+      $_SESSION["mdp"] = $mdp;
+    }
+}
+elseif (isset($_SESSION["email"]) && isset($_SESSION["mdp"])) {
+  $email = $_SESSION["email"];
+  $mdp = md5($_SESSION["mdp"]);
+
+  $results = $cnx->query("SELECT COUNT(*) FROM login WHERE email = '".$email."' AND password = '".$mdp."'");
+  $ligne = $results->fetch(PDO::FETCH_OBJ);
+  if ($ligne->count != 1) {
+    header("location: admin_connexion.php?r=error");
+  }
 }
 else {
   header("location: index.php");
@@ -30,6 +46,7 @@ else {
     <!-- Admin connexion -->
 
     <h1 class="admin">Administrateur</h1>
+    <p class="admin-text">Vous êtes connecté en tant que <?php echo $_SESSION["email"]; ?> <br> <a href="deconnexion_admin.php">Cliquez ici pour vous déconnecter</a></p>
     <div class="ligne"></div>
 
     <br>
