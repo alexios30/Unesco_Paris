@@ -38,7 +38,7 @@ include("checklang.inc.php");
     case "es": 
       echo "
       <div class='Paris'>
-        <span>Par&iacute;s</span><br/>
+        <span>Paris</span><br/>
         Un patrimonio vivo, una cultura eterna,<br/>
         Una historia a trav&eacute;s de cada callejuela
       </div>";

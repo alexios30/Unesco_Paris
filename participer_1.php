@@ -1,69 +1,16 @@
 <html>
   <head>
     <title>Participer</title>
-    <link rel="stylesheet" href="style_parcourir.css">
+    <link rel="stylesheet" href="style_participer.css">
     <meta charset="utf-8">
   </head>
   <body>
-
-    <!-- Barre de navigation -->
-    
-    <div class="navigbar">
-      <div class="navig">
-        
-        <!-- Hamburger menu -->
-        
-        <button onclick="myFunction('menu')" class="rectangles">
-          <img id="hambmenu" src="https://i.imgur.com/MCTSRpB.png ">
-        </button>
-        
-        <!-- Logo MCN -->
-        
-        <a class="logo" href="index.html"><img id="LogoMCN" src="https://i.imgur.com/FYHl6nN.png"></a>
-        
-        <!-- Barre de recherche -->
-        
-        <div class="search-bar">
-          <input type=text placeholder="Recherche...">
-          <div class="loupe">
-            <img src="https://i.imgur.com/0Arm6Lu.png">
-          </div>
-        </div>
-        
-        <!-- Menu des langues -->
-        
-        <button class="menul" onClick="myFunction('langues')">
-          <img src="https://i.imgur.com/moe4dvF.png" class="langue"/>&nbsp;FR
-        </button>
-        <div id="langues">
-          <a href=""><div class="sousl">
-            <img src="https://i.imgur.com/ZUd06Ts.png" class="langue"/>&nbsp;EN
-          </div></a>
-          <a href=""><div class="sousl">
-            <img src="https://i.imgur.com/6MrXRwG.png" class="langue"/>&nbsp;ES
-          </div></a>
-        </div>
-        </div>
-      
-        <!-- Reste du menu hamburger -->
-      
-        <div id="menu">
-          <div class="sous">
-            <a href="#">Participer</a>
-          </div>
-          <div class="sous">
-            <a href="#">Parcourir</a>
-          </div>
-          <div class="sous">
-            <a href="#">D&eacute;couvrir</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br>
-    <br>
-    
+    <?php
+    include("checklang.inc.php");
+    ?>
+    <?php
+    include("navbar.inc.php");
+    ?>    
     <!-- Barre noire -->
 
     <div class="barre-noire">
@@ -170,41 +117,10 @@
 
   <!-- Fin Activites -->
 
-  <!-- FOOTER -->
-  <footer>
-
-    <h3>About us</h3>
-
-    <!-- LIENS -->
-    <div class="link_bloc">
-        <div class="links">
-            <a href="">Who are we ?	</a> <br>
-            <a href="">Contact us</a> <br>
-            <a href="">Terms & Conditions</a> <br>
-            <a href="">Privacy Policy</a>
-        </div>
-        <div class="links">
-            <a href="">Credits</a> <br>
-            <a href="">Legal Notices</a> <br>
-        </div>
-    </div>
-
-    <hr width="90%" style="margin:50px auto 40px auto">
-
-    <!-- LOGOS -->
-    <div class="all_logos">
-        <a href="https://iut.univ-gustave-eiffel.fr"><img src="Icons/iut-uge.png"></a>
-        <a href="https://www.unesco.org/"><img src="Icons/unesco.png"></a>
-        <img src="Icons/mcn.png">
-        <img src="Icons/cdm.png">
-        <img src="Icons/idea.png">
-        <img src="Icons/inv_ave.png">
-    </div>
-
-    <p>
-        &copy; All rights reserved.
-    </p>
-
-</footer>
+  <!-- Footer -->
+  
+  <?php
+  include("footer.inc.php");
+  ?>
 </body>
 </html>

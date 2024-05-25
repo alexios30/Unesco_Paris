@@ -6,7 +6,9 @@
     <meta charset="utf-8">
   </head>
 <body>
-  <br>
+<?php
+    include("checklang.inc.php");
+    ?>
   <?php
   include("navbar.inc.php");
   ?>

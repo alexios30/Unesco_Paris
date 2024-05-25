@@ -101,10 +101,10 @@ echo "
       <!-- Reste du menu hamburger -->
         <div id='menu'>
         <div class='sous'>
-          <a href='participer.php?lang=$lang'>Participer</a>
+          <a href='participer_1.php?lang=$lang'>Participer</a>
         </div>
         <div class='sous'>
-          <a href='parcourir.php?lang=$lang'>Parcourir</a>
+          <a href='Parcourir.php?lang=$lang'>Parcourir</a>
         </div>
         <div class='sous'>
           <a href='decouvrir.php?lang=$lang'>D&eacute;couvrir</a>

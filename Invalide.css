@@ -13,6 +13,11 @@
     margin: 0px;
   }
   
+
+  button:hover { cursor: pointer; }
+
+  .click { cursor: pointer; }
+  
   /* Début barre de navigation */
   
   div.navigbar { 
@@ -68,18 +73,17 @@
   /* Fin menu hamburger */
   
   .logo {
-    margin-top: 12px;
-    margin-left: 3.5%;
+    margin: 12px 0 12px 3.5%;
   }
   
   #LogoMCN { height: 60px; }
   
   /* Début barre de recherche */
   
-  .search-bar {
+  form {
     display: flex;
     background-color: white;
-    margin: 18px 0px 18px 33%;
+    margin: 20px 0px 20px 35%;
     width: 30%;
     align-items: center;
     justify-content: center;
@@ -87,7 +91,7 @@
     border-radius: 20px;
   }
   
-  .search-bar > input {
+  input.recherche {
     border: none;
     right: 0px;
     width: 100%;
@@ -101,19 +105,14 @@
     margin-right: 5px;
     display: flex;
     border-radius: 30px;
-    background-color: var(--main);
     height: 35px;
     width: 35px;
     align-items: center;
     justify-content: center;
+    background-image: url(https://i.imgur.com/0Arm6Lu.png);
   }
   
-  .search-bar > input:focus { outline: none; }
-  
-  .loupe > img {
-    height: 20px;
-    filter: invert(1);
-  }
+  form > input:focus { outline: none; }
   
   /* Fin barre de recherche */
   
@@ -162,7 +161,6 @@
   }
   
   /* Fin menu des langues et barre de navigation */
-  
   
 
   .about span.Titre {
@@ -501,3 +499,4 @@
     font-size: 20px;
     letter-spacing: 2px;
   }
+  
