@@ -1,0 +1,67 @@
+/* Début Footer */
+
+footer {
+    color: rgb(255, 255, 255, 0.75);
+    background-color: rgb(0, 0, 0, 0.75);
+    font-style: italic;
+    padding: 10px 50px 3px 7%;
+    font-family: 'Cicle_Gordita';
+}
+  
+footer > h3 {
+    color : var(--main);
+    line-height: normal;
+    font-family: 'Dyno_Bold';
+    font-size: 30px;
+}
+  
+.link_bloc {
+    display: flex;
+}
+  
+.links {
+    font-size: 20px;
+    width : 270px;
+    text-align: left;
+    line-height: 45px;
+    font-size: none;
+}
+  
+.links > a:link {
+    color: rgb(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+  
+.links > a:hover {
+    color: rgb(255, 255, 255);
+}
+  
+.links > a:visited {
+    color: rgb(255, 255, 255, 0.75);
+}
+  
+.all_logos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+  
+.all_logos > img {
+    height: 50px;
+    margin: 20px 30px 10px 30px;
+}
+  
+.all_logos > a > img {
+    height: 50px;
+    margin: 20px 30px 20px 30px;
+}
+  
+footer > p {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+  
+/* Fin Footer */
