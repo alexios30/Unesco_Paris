@@ -105,11 +105,21 @@ input.recherche {
   margin-right: 5px;
   display: flex;
   border-radius: 30px;
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 48px;
   align-items: center;
   justify-content: center;
   background-image: url(https://i.imgur.com/0Arm6Lu.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-position: center;
+  border: none;
+}
+
+.loupe:hover {
+  background-color: #bababa;
+  cursor: pointer;
 }
 
 form > input:focus { outline: none; }
