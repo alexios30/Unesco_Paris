@@ -1,8 +1,9 @@
+@import url(style_navbar.inc.css);
+@import url(style_footer.inc.css);
+
 button:hover { cursor: pointer; }
 
 .click { cursor: pointer; }
-
-@import url(style_navbar.inc.css);
 
 /* Début Héros */
 
@@ -226,5 +227,3 @@ color: #fff;
 #m6 { background-image: url("Images/invalide.jpg") ;}
 
 /* Fin Découvrez */
-
-@import url(style_footer.inc.css);
