@@ -62,7 +62,7 @@
     <div class="ligne"></div>
     <div class="box">
       <div class="cadrant">
-        <img id="monument" src="Images/parcourir_1.jpg">
+        <img id="monument" src="Images/parcours.jpeg">
       </div>
       <div class="description">
         Venez parcourir le Grand Paris !
@@ -91,7 +91,7 @@
       <div class="cadrant click" id="m5"  onclick="window.location.href='Opera.html'"><div class="text">Op&eacute;ra</div></div>
       <div class="cadrant click" id="m6"  onclick="window.location.href='Invalide.html'"><div class="text">H&ocirc;tel des Invalides</div></div>
     </div>
-    <button class="plus" onclick="window.location.href='Decouvrir.php'">
+    <button class="plus" onclick="window.location.href='decouvrir.php'">
     Plus d&apos;informations >
   </button>
 
