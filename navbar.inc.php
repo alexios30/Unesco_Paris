@@ -4,22 +4,33 @@ $composants_adresse = explode('/', $adresse);
 $fichier_avec_ext = $composants_adresse[count($composants_adresse) - 1];
 $fichier_sep = explode('.', $fichier_avec_ext);
 $nom_fichier = $fichier_sep[0];
-
 echo "
+
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Document</title>
+</head>
+<body>
+
 <!-- Barre de navigation -->
   
 <div class='navigbar'>
   <div class='navig'>
     
-    <!-- Hamburger menu -->
-    
-    <button onclick='myFunction(".'"'."menu".'"'.")' class='rectangles'>
-      <img id='hambmenu' src='https://i.imgur.com/MCTSRpB.png '>
-    </button>
-    
-    <!-- Logo MCN -->
+    <div id='gauche'>
+      <!-- Hamburger menu -->
+      
+      <button onclick='myFunction(".'"'."menu".'"'.")' class='rectangles'>
+        <img id='hambmenu' src='https://i.imgur.com/MCTSRpB.png '>
+      </button>
+      
+      <!-- Logo MCN -->
 
-    <a class='logo' href='accueil.php?lang=$lang'><img id='LogoMCN' src='https://i.imgur.com/FYHl6nN.png'></a>
+      <a class='logo' href='index.php?lang=$lang'><img id='LogoMCN' src='https://i.imgur.com/FYHl6nN.png'></a>
+    </div>
         
     <!-- Barre de recherche -->
     
@@ -99,12 +110,12 @@ switch ($lang) {
 
 echo "
       <!-- Reste du menu hamburger -->
-        <div id='menu'>
+      <div id='menu' style='display: none;'>
         <div class='sous'>
-          <a href='participer_1.php?lang=$lang'>Participer</a>
+          <a href='participer.php?lang=$lang'>Participer</a>
         </div>
         <div class='sous'>
-          <a href='Parcourir.php?lang=$lang'>Parcourir</a>
+          <a href='parcourir.php?lang=$lang'>Parcourir</a>
         </div>
         <div class='sous'>
           <a href='decouvrir.php?lang=$lang'>D&eacute;couvrir</a>
