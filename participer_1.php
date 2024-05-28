@@ -6,9 +6,7 @@
   </head>
   <body>
     <?php
-    include("checklang.inc.php");
-    ?>
-    <?php
+    //include("checklang.inc.php");
     include("navbar.inc.php");
     ?>    
     <!-- Barre noire -->
