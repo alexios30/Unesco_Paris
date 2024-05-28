@@ -38,7 +38,7 @@ include("checklang.inc.php");
     case "es": 
       echo "
       <div class='Paris'>
-        <span>Paris</span><br/>
+        <span>Par&iacute;s</span><br/>
         Un patrimonio vivo, una cultura eterna,<br/>
         Una historia a trav&eacute;s de cada callejuela
       </div>";
@@ -83,7 +83,7 @@ include("checklang.inc.php");
       <div class='about'>
         <br/>
         <br/>
-        <span class='Titre'><b><u>Capital</u> de Francia, Par&iacute;s es desde hace <u><span class='gros'>25</span> as</u> <u>la ciudad m&aacute;s visitada del mundo</u></b>.</span><br/><br/><br/><br/><br/>
+        <span class='Titre'><b><u>Capital</u> de Francia, Par&iacute;s es desde hace <u><span class='gros'>25</span> a&ntilde;os</u> <u>la ciudad m&aacute;s visitada del mundo</u></b>.</span><br/><br/><br/><br/><br/>
         <span class='texte'>Esta ciudad est&aacute; repleta de monumentos y lugares que visitar. Explore esta ciudad cargada de historia, en pleno coraz&oacute;n del patrimonio franc&eacute;s, con la ayuda de visitas guiadas a monumentos emblem&aacute;ticos y lugares ins&oacute;litos.</span>
         <br/>
         <br/>
