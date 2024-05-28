@@ -5,10 +5,8 @@
     <meta charset="utf-8">
   </head>
   <body>
-  <?php
-    include("checklang.inc.php");
-    ?>
     <?php
+    //include("checklang.inc.php");
     include("navbar.inc.php");
     ?>
 
