@@ -172,7 +172,7 @@ include("checklang.inc.php");
       case "fr": 
         echo "
         <div class='Parcourez'>
-          <div class='Titre'><b>Browse</b></div>
+          <div class='Titre'><b>Parcourir</b></div>
           <div class='ligne'></div>
           <div class='box'>
             <div class='cadrant'>
@@ -190,7 +190,7 @@ include("checklang.inc.php");
       case "en": 
         echo "
         <div class='Parcourez'>
-          <div class='Titre'><b>Browse</b></div>
+          <div class='Titre'><b>Route</b></div>
           <div class='ligne'></div>
           <div class='box'>
             <div class='cadrant'>
@@ -208,7 +208,7 @@ include("checklang.inc.php");
       case "es": 
         echo "
         <div class='Parcourez'>
-          <div class='Titre'><b>Browse</b></div>
+          <div class='Titre'><b>Explorar</b></div>
           <div class='ligne'></div>
           <div class='box'>
             <div class='cadrant'>
@@ -248,6 +248,9 @@ include("checklang.inc.php");
             <a href='Opera.php?lang=$lang'><div class='cadrant click' id='m5'><div class='text'>Op&eacute;ra</div></div></a>
             <a href='Invalide.php?lang=$lang'><div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div></a>
           </div>
+          <button class='plus' id='exception'>
+            <a href='decouvrir.php?lang=$lang'>Voir plus ></a>
+          </button>
         </div>";
         break;
       case "en": 
@@ -268,6 +271,9 @@ include("checklang.inc.php");
             <a href='Opera.php?lang=$lang'><div class='cadrant click' id='m5'><div class='text'>Op&eacute;ra</div></div></a>
             <a href='Invalide.php?lang=$lang'><div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div></a>
           </div>
+          <button class='plus' id='exception'>
+            <a href='decouvrir.php?lang=$lang'>See more ></a>
+          </button>
         </div>";
         break;
       case "es": 
@@ -288,6 +294,9 @@ include("checklang.inc.php");
             <a href='Opera.php?lang=$lang'><div class='cadrant click' id='m5'><div class='text'>Op&eacute;ra</div></div></a>
             <a href='Invalide.php?lang=$lang'><div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div></a>
           </div>
+          <button class='plus' id='exception'>
+            <a href='decouvrir.php?lang=$lang'>Ver m&aacute;s ></a>
+          </button>
         </div>";
         break;
     }
