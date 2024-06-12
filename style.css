@@ -157,8 +157,8 @@ div.box {
 display: flex;
 margin-top: 50px;
 gap: 5%;
-padding-left: 8%;
-padding-right: 8%;
+padding: 0 8%;
+height: 60vh;
 }
 
 div.box > div.cadrant {
@@ -200,33 +200,37 @@ font-size: 60px;
 div.box2 {
 display: flex;
 margin-top: 50px;
-padding-left: 8%;
-padding-right: 8%;
-gap: 5%;
+gap: 5vh 3vw;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 div.box2 > a {
-  width: 100%;
-  height: 100%;
+  width: 380px;
+  height: 500px;
 }
 
 div.cadrant {
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-border: 5px solid #fff;
+border: 1px solid var(--main_sub);
 background-size: cover ;
 background-position: center;
 background-repeat: no-repeat;
-aspect-ratio: 1/1.33;
+height: 100%;
+align-content: end;
+border-radius: 20px 0;
 }
 
 div.cadrant > div.text {
-text-align: center;
-margin-top: 95%;
-height: 28%;
+height: 33%;
 background-color: rgba(0, 0, 0, 0.3);
 color: #fff;
+font-size: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 40px;
+border-radius: 0 0 20px 0;
 }
 
 #m1 { background-image: url("Images/Triomphe.jpg") ;}
