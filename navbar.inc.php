@@ -1,5 +1,5 @@
 <?php
-if (!isset($lang)) {
+if (! isset($lang)) {
     $lang = "fr";
 }
 
