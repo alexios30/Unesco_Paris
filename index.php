@@ -32,7 +32,7 @@ include("checklang.inc.php");
       <div class='Paris'>
         <span>Paris</span><br/>
           A living heritage, an eternal culture,<br/>
-          A story through each alley&apos;s structure
+          A story through each and every alley&apos;s structure
       </div>";
       break;
     case "es": 
