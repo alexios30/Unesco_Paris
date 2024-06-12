@@ -33,10 +33,11 @@ echo "
         
     <!-- Barre de recherche -->
     <div id='droite'>
-      <form method='post' action='" . htmlspecialchars($nom_fichier) . ".php?lang=" . htmlspecialchars($lang) . "'>
+      <form method='post' action='" . htmlspecialchars($nom_fichier) . ".php?lang=" . htmlspecialchars($lang) . "' id='researchBar'>
         <input class='recherche' type='text' placeholder='" . htmlspecialchars($current_lang[0]) . "'>
         <input class='loupe' type='submit' value=''>
       </form>
+      <button class='loupe' onClick='showResearchBar()' id='smallerResearch'></button>
       <!-- Menu des langues -->    
       <div id='container'>
         <button class='menul' onClick='myFunctionlang(\"langues\")'>
