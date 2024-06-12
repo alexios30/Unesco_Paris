@@ -210,7 +210,101 @@
   <div class="texte-au-dessus-de-ligne">
     <div class="ligne3"></div>
   </div>';
-
+      break;
+      case "es": 
+        echo '
+        
+        <div class="about2">
+          <span class="gros">Arco del Triunfo</span>
+        </div>
+        <div class="ligne">
+        </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="Champs-Info">
+          </div>
+          <div class="center-text0">
+        <p>El Arco del Triunfo es un monumento emblemático de París.</p>
+    </div>
+    <div class="center-text0">
+      <p>Construido para celebrar las victorias militares de Napoleón Bonaparte, se alza al final de la avenida de los Campos Elíseos.</p>
+    </div>
+    <div class="center-text0">
+      <p>Su imponente diseño y sus bajorrelieves conmemorativos lo convierten en un poderoso símbolo de la gloria y la grandeza nacionales francesas.</p>
+    </div>
+    <br>
+    <div class="titre-gauche">
+      <span class="gros2">La historia del Arco del Triunfo</span>
+    </div>
+    <div class="texte-au-dessus-de-ligne">
+      <p>El proyecto napoleónico</p>
+      <div class="ligne3"></div>
+    </div>
+    <br>
+    <div class="Champs-Info2"></div>
+    <div class="description">
+      <p>Foto del Arco del Triunfo en la actualidad</p>
+    </div>
+    <div class="center-text">
+      <p>El proyecto napoleónico de construir el Arco del Triunfo partió de los arquitectos Jean-François Thérèse Chalgrin y Jean-Arnaud Raymond, que eligieron la plaza de l\'Étoile como lugar emblemático. Inspirado en referencias antiguas, en particular el Arco de Tito en Roma, el diseño del arco opta por una apertura sencilla, símbolo también de una puerta de entrada a la ciudad.</p>
+    </div>
+    <div class="center-text">
+      <p>El proceso de construcción no estuvo exento de dificultades, sobre todo en el momento de la boda de Napoleón I y María Luisa de Austria en 1810. Aunque el itinerario imperial preveía pasar por la plaza de l\'Étoile, las obras del Arco del Triunfo no estaban terminadas. Para compensarlo, se erigió una maqueta a tamaño natural a base de lienzos pintados y armazones. Esta construcción provisional, que costó 511.000 francos, permitió a Chalgrin realizar ajustes en los planos originales, influyendo en particular en los salientes, la supresión de los zócalos y la elección de la ornamentación de las fachadas.</p>
+    </div>
+    <div class="center-text">
+      <p>Sin embargo, en enero de 1811, Chalgrin murió con los pilares del Arco del Triunfo a una modesta altura. Su discípulo, Louis-Robert Goust, se hizo cargo del proyecto. A pesar de los desafíos, estos acontecimientos dieron forma a la construcción del Arco del Triunfo, revelando el ingenio de los arquitectos e ilustrando la perseverancia frente a los obstáculos.</p>
+    </div>
+    <div class="titre-gauche"></div>
+    <div class="sousTitre">
+      <h2>Una obra suspendida bajo Luis XVIII</h2>
+    </div>
+    <div class="center-text">
+      <p></p>
+    </div>
+    <div class="center-text">
+      <p>Tras la caída de Napoleón y la ascensión de Luis XVIII, las obras del Arco del Triunfo se interrumpieron. En 1814, el arquitecto Bernard Poyet llegó a proponer la demolición de los pilares existentes, pero esta sugerencia fue rechazada por Luis XVIII, aunque no se expresó claramente la intención de reanudar la construcción. Los monárquicos criticaron este proyecto encargado por Napoleón, y varias propuestas alternativas entre 1814 y 1823 no lograron despertar ningún interés real.</p>
+    </div>
+    <div class="center-text">
+      <p>El 9 de octubre de 1823, Luis XVIII decide reanudar y terminar inmediatamente el Arco del Triunfo, pero con una nueva dedicatoria que celebre al Ejército de los Pirineos. Las obras se reanudan progresivamente bajo la dirección de Louis-Robert Goust, asociado al arquitecto Jean-Nicolas Huyot. Juntos rehicieron los planos de Chalgrin\, en particular añadiendo columnas a la fachada. Carlos X sucedió a Luis XVIII en 1824 y continuó las obras según los deseos de su predecesor...</p>
+    </div>
+    <div class="center-text">
+      <p>En 1825, Huyot fue destituido por su propuesta de añadir columnas a la fachada, pero fue readmitido en 1826. Carlos X insistió en que se respetaran los planos de Chalgrin \. En 1828, una comisión de arquitectos definió la ornamentación a realizar, que incluía cajones con rosetones y altorrelieves esculpidos en las fachadas. Para las esculturas del entablamento se eligió la piedra de Chérence. En 1829, el monumento alcanzó el arquitrabe del entablamento y se instaló una placa de mármol con la nueva dedicatoria a la Armée des Pyrénées. En 1830, Goust se retiró, dejando a Huyot solo en la obra. Huyot propuso un proyecto para decorar la cornisa superior con 36 estatuas que simbolizaban las principales ciudades francesas.</p>
+    </div>
+    <div class="center-text">
+      <p></p>
+    </div>
+    <div class="rectangle-orange">
+      <p>¿Le gustaría visitar París pero no sabe por dónde empezar?</p>
+      <p>¡Descubra nuestros itinerarios predefinidos que se adaptan a su tiempo y a sus deseos !</p>
+      <div class="texterectangle">
+        <a href="Parcourir.php">Visite ></a>
+      </div>
+    </div>
+    <div class="texte-au-dessus-de-ligne">
+      <p>Inauguración del Arco del Triunfo</p>
+      <div class="ligne3"></div>
+    </div>
+    <div class="Champs-Info3"></div>
+    <div class="sousTitre">
+      <h2>Una inauguración discreta</h2>
+    </div>
+    <div class="center-text2">
+      <p>El Arco del Triunfo se inauguró el 29 de julio de 1836, tras tres décadas de obras. En la ceremonia se desvelaron las listas de nombres grabadas en los pedestales, pero la gran celebración prevista se canceló por temor a un atentado contra el rey Luis Felipe. Sólo asistieron once personas, entre ellas el Presidente del Consejo de Ministros Adolphe Thiers y el Ministro de Finanzas Antoine Maurice Appolinaire Argout.</p>
+    </div>
+    <div class="center-text2">
+      <p>Al caer la noche, la multitud se congregó ante el Arco del Triunfo, iluminado por 700 farolas de gas. Sin embargo, surgió una controversia sobre los nombres inscritos en los pilares, que dio lugar a protestas. En respuesta, el gobierno y el arquitecto prometieron considerar todas las peticiones. El arquitecto Blouet añadió rápidamente 128 nombres de generales y 172 batallas olvidadas. En su libro de 1837 "Les Voix Intérieures", Victor Hugo expresó su disgusto por no ver inscrito en el Arco el nombre de su padre, Jospeh-Léopold-Sigisbert Hugo, nombrado general por Luis XVIII en 1814.</p>
+    </div>
+    <div class="center-text2">
+      <p> Los nombres grabados en el Arco del Triunfo fueron añadidos ocasionalmente hasta 1895, lo que refleja la compleja y dinámica historia de este emblemático monumento parisino.</p>
+    </div>
+    <br>
+    <br>
+    <div class="texte-au-dessus-de-ligne">
+      <div class="ligne3"></div>
+    </div>';
+        break;
       }
   ?>
 
