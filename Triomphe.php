@@ -17,22 +17,25 @@
 <br/>
 <br/>
 
-  <div class="about2">
-    <span class="gros">Arc de Triomphe</span>
-  </div>
-  <div class="ligne">
-  </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="Champs-Info">
-    </div>
+
+
     <?php
      switch ($lang) {
       case "fr":
 
-    echo '<div class="center-text0">
+    echo '
+      <div class="about2">
+        <span class="gros">Arc de Triomphe</span>
+      </div>
+      <div class="ligne">
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="Champs-Info">
+        </div>
+    <div class="center-text0">
         <p>L\'Arc de Triomphe est un monument emblématique de Paris.</p>
     </div>
     <div class="center-text0">
@@ -115,7 +118,20 @@
     break;
 
     case "en": 
-      echo '<div class="center-text0">
+      echo '
+      
+      <div class="about2">
+        <span class="gros">Arc de Triomphe</span>
+      </div>
+      <div class="ligne">
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="Champs-Info">
+        </div>
+        <div class="center-text0">
       <p>The Arc de Triomphe is an iconic monument in Paris.</p>
   </div>
   <div class="center-text0">
