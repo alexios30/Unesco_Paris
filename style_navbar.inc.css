@@ -42,6 +42,7 @@ div.navig {
     justify-content: space-between;
     align-items: center;
     width: 20%;
+    min-width: 330px;
 }
 
 /* Début menu hamburger */
@@ -57,6 +58,7 @@ button.rectangles {
 #hambmenu {
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
   
 #menu {
@@ -165,6 +167,7 @@ button.menul {
     font-size: 1rem;
     color: #fff;
     gap: 5px;
+    cursor: pointer;
 }
 
 #langues {
