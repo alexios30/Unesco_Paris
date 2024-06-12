@@ -90,7 +90,7 @@ a {
   
 #LogoMCN { 
     height: 60px;
-    padding-top: 4px;
+    padding: 4px;
 }
   
 #droite {
@@ -142,6 +142,10 @@ input.recherche {
 .loupe:hover {
     background-color: #aaa;
 }
+
+#smallerResearch {
+    display: none;
+}
   
 form > input:focus { outline: none; }
   
@@ -192,3 +196,30 @@ img.langue {
 }
   
 /* Fin menu des langues et barre de navigation */
+
+@media screen and (width < 750px) {
+    #researchBar {
+        display: none;
+        position: absolute;
+        left: 5vw;
+        width: 90vw;
+    }
+    #smallerResearch {
+        display: block;
+        width: 65px;
+        height: 65px;
+        background-size: 50px 50px;
+        margin: 0;
+    }
+}
+
+@media screen and (width < 545px) {
+    #gauche {
+        width: auto;
+        min-width: 246px;
+    }
+    #LogoMCN {
+        height: 50px;
+        padding-top: 8px;
+    }    
+}
