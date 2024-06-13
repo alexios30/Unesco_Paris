@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Le Louvre</title>
+    <title>Louvre</title>
     <link rel="stylesheet" href="louvre.css">
     <meta charset="utf-8">
   </head>
