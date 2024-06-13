@@ -67,13 +67,8 @@ $sections = [
 </div>
 
 <div class='about'>
-    <br/><br/>
-    <span class='Titre'><?= $sections['Heros'][$lang][3] ?></span><br/><br/><br/><br/><br/>
+    <span class='Titre'><?= $sections['Heros'][$lang][3] ?></span>
     <span class='texte'><?= $sections['Heros'][$lang][4] ?></span>
-    <br/><br/>
-    <button class='plus'>
-        <?= $sections['Heros'][$lang][5] ?>
-    </button>
 </div>
 
 <div class='Participez'>
@@ -97,9 +92,11 @@ $sections = [
             <div class='text'><?= htmlspecialchars($sections['Participez'][$lang][1]) ?></div>
         </div>
     </div>
-    <button class='plus' id='exception'>
-        <a href='participer-1.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Participez'][$lang][2]) ?></a>
-    </button>
+    <a href='participer-1.php?lang=<?= $lang ?>' id='exception'>
+        <button class='plus'>
+            <?= htmlspecialchars($sections['Participez'][$lang][2]) ?>
+        </button>
+    </a>
 </div>
 
 <div class='Parcourez'>
@@ -113,9 +110,11 @@ $sections = [
         </div>
         <div class='description'>
             <?= htmlspecialchars($sections['Parcourez'][$lang][1]) ?>
-            <button class='plus' id='exception2'>
-                <a href='parcourir.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Parcourez'][$lang][2]) ?></a>
-            </button>
+            <a href='parcourir.php?lang=<?= $lang ?>' id='exception2'>
+                <button class='plus'>
+                    <?= htmlspecialchars($sections['Parcourez'][$lang][2]) ?>
+                </button>
+            </a>
         </div>
     </div>
 </div>
@@ -145,9 +144,11 @@ $sections = [
             <div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div>
         </a>
     </div>
-    <button class='plus' id='exception'>
-        <a href='decouvrir.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Decouvrez'][$lang][1]) ?></a>
-    </button>
+    <a href='decouvrir.php?lang=<?= $lang ?>' id='exception3'>
+        <button class='plus'>
+            <?= htmlspecialchars($sections['Decouvrez'][$lang][1]) ?>
+        </button>
+    </a>
 </div>
 
 <?php include("footer.inc.php"); ?>
