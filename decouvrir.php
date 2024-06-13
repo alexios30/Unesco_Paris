@@ -6,31 +6,60 @@
   </head>
   <body>
     <?php
-    //include("checklang.inc.php");
+    include("checklang.inc.php");
     include("navbar.inc.php");
     ?>
 
     <br>
     <br>
     
-    <!-- Barre noire -->
-
-    <div class="barre-noire">
-      Accueil > <b>Découvrir</b>
-    </div>
+    <!-- Barre de localisation-->
+    <div class="location">
+            <ul>
+                <li><a class="link_loc" href="index.php">Accueil</a> &nbsp;&nbsp;&nbsp;></li>
+                <li class="current-location">Découvrir</li>
+            </ul>
+        </div>
 
   </div>
 
   <!-- Participer -->
 
-  <h1 class="participer">Découvrir</h1>
+  <h1 class="participer">
+  <?php
+  switch($lang) {
+    case "fr":
+      echo "Découvrir";
+      break;
+    case "en":
+      echo "Discover";
+      break;
+    case "es":
+      echo "Descubrir";
+      break;
+    default:
+      break;
+  }
+  ?>
+  </h1>
   <div class="ligne"></div>
 
   <p class="participer-text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse 
-  luctus laoreet dolor quis imperdiet. Proin nec massa massa. Aliquam 
-  finibus nisi quis neque pharetra condimentum. Donec malesuada 
-  scelerisque turpis.
+  <?php
+  switch($lang) {
+    case "fr":
+      echo "Découvrez de splendides monuments, des jardins rafraichissants et les musées les plus intéressants de Paris.";
+      break;
+    case "en":
+      echo "Discover splendid monuments, refreshing gardens and the most interesting museums in Paris.";
+      break;
+    case "es":
+      echo "Descubra espléndidos monumentos, refrescantes jardines y los museos más interesantes de París.";
+      break;
+    default:
+      break;
+  }
+  ?>
   </p>
   <div class="ligne-participer-text" id="ligne"></div>
 
@@ -45,7 +74,7 @@
   $cnx->exec("SET search_path TO paris");
   ?>
 
-<a href="decouvrir.php?categorie=tous#ligne">
+<a href=<?php echo "decouvrir.php?lang=".$lang."&categorie=tous#ligne"; ?>>
     <?php
     if ($categorie == "tous") {
       echo "<div class=\"bouton-actif\">";
@@ -53,11 +82,25 @@
       echo "<div class=\"bouton\">";
     }
     ?>
-      TOUS
+      <?php
+  switch($lang) {
+    case "fr":
+      echo "TOUS";
+      break;
+    case "en":
+      echo "ALL";
+      break;
+    case "es":
+      echo "TODOS";
+      break;
+    default:
+      break;
+  }
+  ?>
     </div>
   </a>
 
-  <a href="decouvrir.php?categorie=monument#ligne">
+  <a href=<?php echo "decouvrir.php?lang=".$lang."&categorie=monument#ligne"; ?>>
     <?php
     if ($categorie == "monument") {
       echo "<div class=\"bouton-actif\">";
@@ -65,11 +108,25 @@
       echo "<div class=\"bouton\">";
     }
     ?>
-      MONUMENTS
+      <?php
+  switch($lang) {
+    case "fr":
+      echo "MONUMENTS";
+      break;
+    case "en":
+      echo "MONUMENTS";
+      break;
+    case "es":
+      echo "MONUMENTOS";
+      break;
+    default:
+      break;
+  }
+  ?>
     </div>
   </a>
 
-  <a href="decouvrir.php?categorie=vert#ligne">
+  <a href=<?php echo "decouvrir.php?lang=".$lang."&categorie=vert#ligne"; ?>>
     <?php
     if ($categorie == "vert") {
       echo "<div class=\"bouton-actif\">";
@@ -77,11 +134,25 @@
       echo "<div class=\"bouton\">";
     }
     ?>
-      ESPACES VERTS
+      <?php
+  switch($lang) {
+    case "fr":
+      echo "ESPACES VERTS";
+      break;
+    case "en":
+      echo "GREEN SPACES";
+      break;
+    case "es":
+      echo "ESPACIOS VERDES";
+      break;
+    default:
+      break;
+  }
+  ?>
     </div>
   </a>
 
-  <a href="decouvrir.php?categorie=musee#ligne">
+  <a href=<?php echo "decouvrir.php?lang=".$lang."&categorie=musee#ligne"; ?>>
     <?php
     if ($categorie == "musee") {
       echo "<div class=\"bouton-actif\">";
@@ -89,7 +160,21 @@
       echo "<div class=\"bouton\">";
     }
     ?>
-      MUS&Eacute;ES
+      <?php
+  switch($lang) {
+    case "fr":
+      echo "MUSEES";
+      break;
+    case "en":
+      echo "MUSEUMS";
+      break;
+    case "es":
+      echo "MUSEOS";
+      break;
+    default:
+      break;
+  }
+  ?>
     </div>
   </a>
 
@@ -99,9 +184,9 @@
 
   <?php
   if ($categorie != "tous") {
-    $results = $cnx->query("SELECT * FROM decouvrir WHERE type = '".$categorie."'");
+    $results = $cnx->query("SELECT * FROM decouvrir WHERE type = '".$categorie."' AND lang = '".$lang."'");
   } else {
-    $results = $cnx->query("SELECT * FROM decouvrir");
+    $results = $cnx->query("SELECT * FROM decouvrir WHERE lang = '".$lang."'");
   }
 
   echo "<div class=\"section-decouvrir\">";
