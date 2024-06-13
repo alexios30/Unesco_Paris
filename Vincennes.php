@@ -146,7 +146,7 @@
         <br>
         <div class="Champs-Info2"></div>
         <div class="description">
-            <p>Photo of the Bois de Vincennes</p>
+            <p>Illustration of the Bois de Vincennes in 1656</p>
         </div>
         <div class="center-text">
             <p>Area of 995 hectares, more than half of which is wooded</p>

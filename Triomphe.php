@@ -151,7 +151,7 @@
   <br>
   <div class="Champs-Info2"></div>
   <div class="description">
-    <p>Photo of the Arc de Triomphe today</p>
+    <p>Photo of the Arc de Triomphe nowadays</p>
   </div>
   <div class="center-text">
     <p>The Napoleonic project to build the Arc de Triomphe originated with the architects Jean-François Thérèse Chalgrin and Jean-Arnaud Raymond, who chose the Place de l \'Étoile as the emblematic site. Inspired by ancient references, notably the Arch of Titus in Rome, the design of the arch opts for a simple opening, also symbolising a gateway to the city.</p>
@@ -176,7 +176,7 @@
     <p>On 9 October 1823, Louis XVIII decided to immediately resume and complete the Arc de Triomphe, but with a new dedication celebrating the Army of the Pyrenees. Work gradually resumed, under the direction of Louis-Robert Goust, now associated with the architect Jean-Nicolas Huyot. Together, they reworked Chalgrin\'s plans, in particular adding columns to the façade. Charles X succeeded Louis XVIII in 1824 and continued the work in accordance with the wishes of his predecessor..</p>
   </div>
   <div class="center-text">
-    <p>In 1825, Huyot was dismissed for his proposal to add columns to the façade, but he was reinstated in 1826. Charles X insisted that Chalgrin \'s plans be respected. In 1828, a commission of architects defined the ornamentation to be created, including caissons with rosettes and sculpted high reliefs on the façades. Chérence stone was chosen for the sculptures on the entablature. In 1829, the monument reached the architrave of the entablature, and a marble plaque with the new dedication to the Armée des Pyrénées was installed. In 1830, Goust retired, leaving Huyot alone on the site. Huyot proposed a project to decorate the upper cornice with 36 statues symbolising France\'s major cities.</p>
+    <p>In 1825, Huyot was dismissed for his proposal to add columns to the façade, but he was reinstated in 1826. Charles X insisted that Chalgrin\'s plans be respected. In 1828, a commission of architects defined the ornamentation to be created, including caissons with rosettes and sculpted high reliefs on the façades. Chérence stone was chosen for the sculptures on the entablature. In 1829, the monument reached the architrave of the entablature, and a marble plaque with the new dedication to the Armée des Pyrénées was installed. In 1830, Goust retired, leaving Huyot alone on the site. Huyot proposed a project to decorate the upper cornice with 36 statues symbolising France\'s major cities.</p>
   </div>
   <div class="center-text">
     <p></p>
@@ -189,7 +189,7 @@
     </div>
   </div>
   <div class="texte-au-dessus-de-ligne">
-    <p>LInauguration of the Arc de Triomphe</p>
+    <p>The inauguration of the Arc de Triomphe</p>
     <div class="ligne3"></div>
   </div>
   <div class="Champs-Info3"></div>

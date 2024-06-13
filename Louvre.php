@@ -114,7 +114,7 @@
       <br>
       <div class="Champs-Info2"></div>
       <div class="description">
-          <p>Photo of the Louvre today</p>
+          <p>Photo of the Louvre nowadays</p>
       </div>
       <div class="center-text">
           <p>The construction of the Louvre began in 1190 under Philippe Auguste, aiming to protect Paris from invasions. This medieval fortress gradually transformed into a sumptuous royal residence. Under the reign of Charles V in the 14th century, the Louvre became a true palace, with luxurious fittings and a royal library.</p>

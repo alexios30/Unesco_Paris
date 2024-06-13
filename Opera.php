@@ -131,7 +131,7 @@
           <div class="Champs-Info2">
           </div>
           <div class="description">
-              <p>Photo of the Paris Opera today</p>
+              <p>Photo of the Paris Opera nowadays</p>
           </div>
           <div class="center-text">
               <p>The Palais Garnier was designed by architect Charles Garnier, who won the competition for its construction in 1861. The first stone was laid in 1862, and the building was inaugurated in 1875. Its eclectic architecture combines elements of Baroque, Classical, and Beaux-Arts styles, marking a period of great opulence.</p>
