@@ -1,3 +1,7 @@
+<?php
+include("checklang.inc.php");
+?>
+
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
@@ -9,7 +13,6 @@
 <body>
 
 <?php
-include("checklang.inc.php");
 include("navbar.inc.php");
 
 $sections = [
@@ -40,9 +43,9 @@ $sections = [
       ]
   ],
   'Participez' => [
-      'fr' => ['Participer', 'Période, description, etc', "Voir plus d'évènements >"],
-      'en' => ['Participate', 'Period, description, etc', 'See more events >'],
-      'es' => ['Participar', 'Período, descripción, etc', 'Ver más eventos >']
+      'fr' => ['Participer', '', "Voir plus d'évènements >"],
+      'en' => ['Participate', '', 'See more events >'],
+      'es' => ['Participar', '', 'Ver más eventos >']
   ],
   'Parcourez' => [
       'fr' => ['Parcourir', 'Venez parcourir le Grand Paris !', "C'est parti ! >"],
@@ -50,9 +53,9 @@ $sections = [
       'es' => ['Explorar', 'Venga a descubrir el Gran París', '¡Allá vamos! >']
   ],
   'Decouvrez' => [
-      'fr' => ['Découvrez', 'Voir plus >'],
+      'fr' => ['Découvrir', 'Voir plus >'],
       'en' => ['Discover', 'See more >'],
-      'es' => ['Descubra', 'Ver más >']
+      'es' => ['Descubrir', 'Ver más >']
   ]
 ];
 ?>
@@ -75,9 +78,9 @@ $sections = [
 
 <div class='Participez'>
     <div class='Titre'>
-        <b><?= htmlspecialchars($sections['Participez'][$lang][0]) ?></b>
+        <?= htmlspecialchars($sections['Participez'][$lang][0]) ?>
     </div>
-    <div class='ligne'></div>
+    <hr class='ligne'>
     <div class='bloc'>
         <div class='image click' id='e1'>
             <div class='text'><?= htmlspecialchars($sections['Participez'][$lang][1]) ?></div>
@@ -101,9 +104,9 @@ $sections = [
 
 <div class='Parcourez'>
     <div class='Titre'>
-        <b><?= htmlspecialchars($sections['Parcourez'][$lang][0]) ?></b>
+        <?= htmlspecialchars($sections['Parcourez'][$lang][0]) ?>
     </div>
-    <div class='ligne'></div>
+    <hr class='ligne'>
     <div class='box'>
         <div class='cadrant'>
             <img id='monument' src='Images/parcours.jpeg' alt='<?= htmlspecialchars($sections['Parcourez'][$lang][0]) ?>'>
@@ -111,7 +114,7 @@ $sections = [
         <div class='description'>
             <?= htmlspecialchars($sections['Parcourez'][$lang][1]) ?>
             <button class='plus' id='exception2'>
-                <a href='Parcourir.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Parcourez'][$lang][2]) ?></a>
+                <a href='parcourir.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Parcourez'][$lang][2]) ?></a>
             </button>
         </div>
     </div>
@@ -119,9 +122,9 @@ $sections = [
 
 <div class='Decouvrez'>
     <div class='Titre'>
-        <b><?= htmlspecialchars($sections['Decouvrez'][$lang][0]) ?></b>
+        <?= htmlspecialchars($sections['Decouvrez'][$lang][0]) ?>
     </div>
-    <div class='ligne'></div>
+    <hr class='ligne'>
     <div class='box2'>
         <a href='Triomphe.php?lang=<?= $lang ?>'>
             <div class='cadrant click' id='m1'><div class='text'>Arc de Triomphe</div></div>
