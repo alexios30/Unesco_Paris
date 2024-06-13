@@ -1,156 +1,291 @@
-<?php
-include("checklang.inc.php");
-?>
+@import url(style_navbar.inc.css);
+@import url(style_footer.inc.css);
 
-<!DOCTYPE html>
-<html lang="<?= $lang ?>">
-<head>
-    <title>Paris</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-</head>
-<body>
+html, body {
+    display: flex;
+    flex-direction: column;
+}
 
-<?php
-include("navbar.inc.php");
+button:hover {
+    cursor: pointer;
+    background-color: darken;
+}
 
-$sections = [
-  'Heros' => [
-        'fr' => [
-          'Paris',
-          'Un patrimoine vivant, une culture éternelle,',
-          'Une histoire à travers chaque ruelle',
-          "<b><u>Capitale</u> de la France, Paris est la ville <u>la plus visitée au monde</u> depuis <u><span class='gros'>25</span> ans</u></b>.",
-          "Cette ville regorge de monuments et d'endroits à visiter. &Agrave; l'aide de parcours de découverte des monuments emblématiques ou de lieux atypiques, explorez cette ville chargée d'histoire, placée au centre du patrimoine français.",
-          "Plus d'informations >"
-      ],
-      'en' => [
-          'Paris',
-          "A living heritage, an eternal culture,",
-          "A story through each and every alley's structure",
-          "<b><u>Capital</u> of France, Paris is <u>the most visited city in the world</u> for the past <u><span class='gros'>25</span> years</u></b>.",
-          "This city is brimming with monuments and places to visit. Explore this city steeped in history, at the heart of France's heritage, with the help of guided tours of emblematic monuments and unusual sites.",
-          'More information >'
-      ],
-      'es' => [
-          'París',
-          'Un patrimonio vivo, una cultura eterna,',
-          'Una historia a través de cada callejuela',
-          "<b><u>Capital</u> de Francia, Par&iacute;s es desde hace <u><span class='gros'>25</span> a&ntilde;os</u> <u>la ciudad m&aacute;s visitada del mundo</u></b>.",
-          'Esta ciudad est&aacute; repleta de monumentos y lugares que visitar. Explore esta ciudad cargada de historia, en pleno coraz&oacute;n del patrimonio francés, con la ayuda de visitas guiadas a monumentos emblem&aacute;ticos y lugares ins&oacute;litos.',
-          'M&aacute;s informaci&oacute;n >'
-      ]
-  ],
-  'Participez' => [
-      'fr' => ['Participer', '', "Voir plus d'évènements >"],
-      'en' => ['Participate', '', 'See more events >'],
-      'es' => ['Participar', '', 'Ver más eventos >']
-  ],
-  'Parcourez' => [
-      'fr' => ['Parcourir', 'Venez parcourir le Grand Paris !', "C'est parti ! >"],
-      'en' => ['Route', 'Come and explore the Greater Paris region!', "Let's go! >"],
-      'es' => ['Explorar', 'Venga a descubrir el Gran París', '¡Allá vamos! >']
-  ],
-  'Decouvrez' => [
-      'fr' => ['Découvrir', 'Voir plus >'],
-      'en' => ['Discover', 'See more >'],
-      'es' => ['Descubrir', 'Ver más >']
-  ]
-];
-?>
+a {
+    color: inherit;
+}
 
-<div class='Paris'>
-    <span><?= htmlspecialchars($sections['Heros'][$lang][0]) ?></span><br/>
-    <?= $sections['Heros'][$lang][1] ?><br>
-    <?= $sections['Heros'][$lang][2] ?>
-</div>
+.click { cursor: pointer; }
 
-<div class='about'>
-    <br/><br/>
-    <span class='Titre'><?= $sections['Heros'][$lang][3] ?></span><br/><br/><br/><br/><br/>
-    <span class='texte'><?= $sections['Heros'][$lang][4] ?></span>
-    <br/><br/>
-    <button class='plus'>
-        <?= $sections['Heros'][$lang][5] ?>
-    </button>
-</div>
+/* Début Héros */
 
-<div class='Participez'>
-    <div class='Titre'>
-        <?= htmlspecialchars($sections['Participez'][$lang][0]) ?>
-    </div>
-    <hr class='ligne'>
-    <div class='bloc'>
-        <div class='image click' id='e1'>
-            <div class='text'><?= htmlspecialchars($sections['Participez'][$lang][1]) ?></div>
-        </div>
-        <div class='image click' id='e2'>
-            <div class='text'><?= htmlspecialchars($sections['Participez'][$lang][1]) ?></div>
-        </div>
-    </div>
-    <div class='bloc'>
-        <div class='image click' id='e3'>
-            <div class='text'><?= htmlspecialchars($sections['Participez'][$lang][1]) ?></div>
-        </div>
-        <div class='image click' id='e4'>
-            <div class='text'><?= htmlspecialchars($sections['Participez'][$lang][1]) ?></div>
-        </div>
-    </div>
-    <button class='plus' id='exception'>
-        <a href='participer-1.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Participez'][$lang][2]) ?></a>
-    </button>
-</div>
+.Paris {
+    height: 65vh;
+    background-image: url(''); 
+    background-size: cover ;
+    background-position: center;
+    padding: 25vh 15vw 0 15vw;
+    color: #fff; 
+    font-size: 7.2vw;
+    text-shadow: 0px 5px 10px #000;
+}
 
-<div class='Parcourez'>
-    <div class='Titre'>
-        <?= htmlspecialchars($sections['Parcourez'][$lang][0]) ?>
-    </div>
-    <hr class='ligne'>
-    <div class='box'>
-        <div class='cadrant'>
-            <img id='monument' src='Images/parcours.jpeg' alt='<?= htmlspecialchars($sections['Parcourez'][$lang][0]) ?>'>
-        </div>
-        <div class='description'>
-            <?= htmlspecialchars($sections['Parcourez'][$lang][1]) ?>
-            <button class='plus' id='exception2'>
-                <a href='parcourir.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Parcourez'][$lang][2]) ?></a>
-            </button>
-        </div>
-    </div>
-</div>
+.Paris span { font-size: 6rem; }
 
-<div class='Decouvrez'>
-    <div class='Titre'>
-        <?= htmlspecialchars($sections['Decouvrez'][$lang][0]) ?>
-    </div>
-    <hr class='ligne'>
-    <div class='box2'>
-        <a href='Triomphe.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m1'><div class='text'>Arc de Triomphe</div></div>
-        </a>
-        <a href='Louvre.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m2'><div class='text'>Louvre</div></div>
-        </a>
-        <a href='NotreDame.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m3'><div class='text'>Notre Dame</div></div>
-        </a>
-        <a href='Vincennes.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m4'><div class='text'>Bois de Vincennes</div></div>
-        </a>
-        <a href='Opera.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m5'><div class='text'>Op&eacute;ra</div></div>
-        </a>
-        <a href='Invalide.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div>
-        </a>
-    </div>
-    <button class='plus' id='exception'>
-        <a href='decouvrir.php?lang=<?= $lang ?>'><?= htmlspecialchars($sections['Decouvrez'][$lang][1]) ?></a>
-    </button>
-</div>
+/* Fin Héros */
 
-<?php include("footer.inc.php"); ?>
+/* Début about */
 
-</body>
-</html>
+.about {
+    padding: 0 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.about .Titre { font-size: 50px; }
+
+.about .texte { font-size: 6vw; padding: 0 5vw;}
+
+.about .gros { font-size: 65px; }
+
+.plus {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid var(--sec);
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--sec);
+    background-color: var(--bg);
+    transition: all 0.5s ease;
+    align-self: end;
+}
+
+.plus:hover {
+    background-color: #222;
+}
+
+#exception {
+    width: 230px;
+    align-self: center;
+    margin: 5vh 0 0 0;
+    color: var(--sec);
+}
+
+/* Fin about */
+
+/* Debut Participez */
+
+.Participez {
+    margin-top: 20vh;
+    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.50), 0px -50px 100px 0px #000;
+    padding: 0 5vw 15vh 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Titre {
+    padding: 15vh 5vw 0 5vw;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.ligne {
+    color: var(--main);
+    width: 60vw;
+    margin-bottom: 20px;
+}
+
+.bloc {
+    display: flex;
+    gap: 20px;
+    padding: 0 8vw;
+}
+
+.image {
+    width: 50%;
+    border: 1px solid #000;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1.66/1;
+    overflow: hidden;
+}
+
+.bloc .image .text {
+    text-align: center;
+    margin-top: 43.5%;
+    height: 28%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 2vw;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover .text {
+    transform: translateY(0%);
+}
+
+#e1 {
+    background-image: url("Images/ev2.jpg") ;
+    border-radius: 100px 10px 10px 10px;
+}
+
+#e2 {
+    background-image: url("Images/ev3.jpg") ;
+    border-radius: 10px 100px 10px 10px; 
+}
+
+#e3 {
+    background-image: url("Images/ev4.jpg") ;
+    border-radius: 10px 10px 10px 100px; 
+}
+
+#e4 {
+    background-image: url("Images/MarchéNoel.jpg") ;
+    border-radius: 10px 10px 100px 10px; 
+}
+
+/* Fin Participez */
+
+/* Début Parcourez */
+
+.Parcourez {
+    margin-top: 100px;
+    padding: 0 5vw 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin: 0 10vw;
+}
+
+.box .cadrant {
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    min-width: 400px;
+    justify-content: center;
+    margin: 0 0 0 1vw;
+    max-width: 500px;
+}
+
+#monument {
+    height: 100%;
+    object-fit: cover;
+}
+
+.description {
+    width: 45%;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#exception2 {
+    margin: 0;
+    align-self: end;
+}
+
+/* Fin Parcourez */
+
+/* Début Découvrez */
+
+.Decouvrez {
+    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.50), 0px -50px 100px 0px #000;
+    padding: 0 5vw 15vh 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box2 {
+    display: flex;
+    gap: 5vh 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    align-self: center;
+}
+
+.box2 > a {
+    width: 380px;
+    height: 500px;
+}
+
+.cadrant {
+    border: 1px solid var(--main_sub);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    align-content: end;
+    border-radius: 20px 0;
+    overflow: hidden;
+}
+
+.cadrant .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 40px;
+    border-radius: 0 0 20px 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cadrant:hover .text {
+    transform: translateY(0%);
+}
+
+#m1 { background-image: url("Images/Triomphe.jpg") ;}
+#m2 { background-image: url("Images/Louvres.jpg") ;}
+#m3 { background-image: url("Images/NotreDame.jpg") ;}
+#m4 { background-image: url("Images/VINCENNE.jpg") ;}
+#m5 { background-image: url("Images/opera.jpg") ;}
+#m6 { background-image: url("Images/invalide.jpg") ;}
+
+/* Fin Découvrez */
+
+@media screen and (width < 800px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .description {
+        width: 80%;
+        gap: 2.5rem;
+    }
+    
+    #exception2 {
+        align-self: center;
+    }
+}
+
+@media screen and (width > 550px) {
+    .Paris {
+        font-size: 2.5rem;
+    }
+    .about .texte {
+        font-size: 2.1rem;
+    }
+}
