@@ -143,7 +143,7 @@
     </div>
   </a>
 
-  <a href=<?php echo "participer_1.php?lang=".$lang."&categorie=evenement#ligne"; ?>>
+  <a href="https://parisjetaime.com/ou-sortir-a-paris-i004">
     <?php
     if ($categorie == "evenement") {
       echo "<div class=\"bouton-actif\">";
