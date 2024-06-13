@@ -118,7 +118,8 @@ a {
   border-radius: 5px;
   vertical-align: top;
   width: 27.5%;
-  height: 52.5%;
+  min-height: 40%;
+  max-height: 60%;
   padding: 1%;
   margin-left: 2.5%;
   margin-bottom: 2.5%;
@@ -141,7 +142,7 @@ a {
 
 .box-activite p {
   color: white;
-  text-align: center;
+  text-align: justify;
   font-size: 80%;
 }
 

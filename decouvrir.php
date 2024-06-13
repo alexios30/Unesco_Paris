@@ -185,7 +185,7 @@
       <?php
   switch($lang) {
     case "fr":
-      echo "MUSEES";
+      echo "MUS&Eacute;ES";
       break;
     case "en":
       echo "MUSEUMS";
@@ -219,11 +219,47 @@
       <b class="titre-activite">
       <?php
       if ($ligne->type == "monument") {
-        echo "MONUMENT";
+        switch($lang) {
+          case "fr":
+            echo "MONUMENT";
+            break;
+          case "en":
+            echo "MONUMENT";
+            break;
+          case "es":
+            echo "MONUMENTO";
+            break;
+          default:
+            break;
+        }
       } elseif ($ligne->type == "musee") {
-        echo "MUS&Eacute;E";
+        switch($lang) {
+          case "fr":
+            echo "MUS&Eacute;E";
+            break;
+          case "en":
+            echo "MUSEUM";
+            break;
+          case "es":
+            echo "MUSEO";
+            break;
+          default:
+            break;
+        }
       } else {
-        echo "ESPACES VERT";
+        switch($lang) {
+          case "fr":
+            echo "ESPACE VERT";
+            break;
+          case "en":
+            echo "GREEN SPACE";
+            break;
+          case "es":
+            echo "ESPACIO VERDE";
+            break;
+          default:
+            break;
+        }
       }
       ?>
       </b>
@@ -232,7 +268,22 @@
       <?php echo $ligne->nom_decouvrir; ?>
       </div>
       <p> <?php echo $ligne->description; ?> </p>
-      <div class="boutton-voir-activite"><a href= <?php echo $ligne->lien_page; ?> >Voir plus !</a></div>
+      <div class="boutton-voir-activite"><a href= <?php echo $ligne->lien_page; ?> >
+        <?php
+  switch($lang) {
+    case "fr":
+      echo "Voir plus !";
+      break;
+    case "en":
+      echo "See more !";
+      break;
+    case "es":
+      echo "Ver más !";
+      break;
+    default:
+      break;
+  }
+  ?></a></div>
     </div>
 
     <?php
