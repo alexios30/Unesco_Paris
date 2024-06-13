@@ -27,104 +27,54 @@ include("checklang.inc.php");
         <h1>Parcourir</h1>
         <hr class="main-line">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse 
-            luctus laoreet dolor quis imperdiet. Proin nec massa massa. Aliquam 
-            finibus nisi quis neque pharetra condimentum. Donec malesuada 
-            scelerisque turpis.
+        Découvrez Paris autrement : des parcours captivants pour explorer la Ville Lumière sous un nouveau jour!
         </p>
         <hr class="separator-line">
         <section class="main-section">
             <article class="parcours">
                 <div class="left-side">
-                    <img id="img1" src="https://i.imgur.com/aT2fyJh.jpg" alt="image 1">
-                    <img src="https://i.imgur.com/aT2fyJh.jpg" alt="image 2">
-                    <img src="https://i.imgur.com/aT2fyJh.jpg" alt="image 3">
+                    <img id="img1" src="https://static.actu.fr/uploads/2021/07/adobestock-212436461.jpeg" alt="image 1">
+                    <img src="https://vivreparis.fr/wp-content/uploads/2021/10/musee-des-egouts-de-paris-vivre-paris-1-1.jpg" alt="image 2">
+                    <img src="https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2021/04/16054428/Copie-de-Design-sans-titre-72-1024x576.jpg" alt="image 3">
                 </div>
                 <div class="right-side">
-                    <h2>Nom du parcours</h2>
+                    <h2>Les Secrets Cachés de Paris</h2>
                     <nav>
                         <ul>
-                            <li>tag</li>
-                            <li>tag</li>
-                            <li>tag</li>
+                            <li>Historique</li>
+                            <li>Architecture </li>
+                            <li>Culture</li>
                         </ul>
                     </nav>
                     <p>
-                        Dui metus nec lacus. Ut ac malesuada dolor, in sagittis neque. 
-                        Suspendisse sollicitudin urna libero, in ullamcorper nisl elementum et.
+                    Bienvenue dans notre parcours unique à travers Paris : "Les Secrets Cachés de Paris". Pendant cette aventure captivante de 3 heures, vous explorerez des trésors méconnus de la capitale française. Partez à la découverte de la Petite Ceinture, une ancienne ligne de chemin de fer abandonnée devenue un havre de verdure urbaine. Plongez dans les entrailles de la ville avec une visite insolite au Musée des Égouts. Admirez la splendeur orientale de la Pagode de Paris et laissez-vous émerveiller par la biodiversité du Jardin des Serres d'Auteuil. Terminez cette exploration avec une pause relaxante au Square des Batignolles, où l'architecture et la nature se rencontrent harmonieusement. Rejoignez-nous pour une expérience qui marquera vos sens et enrichira votre connaissance de Paris !
 
 
-                        Sed vehicula accumsan quam, auctor pharetra neque varius eget. 
-                        Suspendisse maximus, tortor vitae sagittis dictum, nulla libero 
-                        facilisis nisl, vel accumsan nunc leo vitae nulla. Quisque leo ante, 
-                        aliquam quis tellus et, maximus pulvinar velit. Integer aliquet accumsan
-                        turpis a faucibus. Curabitur bibendum nibh vel lectus euismod, ac 
-                        finibus magna facilisis. Donec posuere rutrum ante, ac vehicula metus. 
-                        Suspendisse potenti. Aliquam in ipsum viverra, feugiat metus ac, commodo
-                        magna. Curabitur molestie feugiat sem sit amet porta. Donec ex ex, 
-                        tristique nec quam tincidunt, pretium bibendum ante. Quisque ornare non 
-                        nunc ac imperdiet. Aenean vel posuere dolor, id maximus est.
 
 
-                        Suspendisse semper urna sed quam viverra, eget interdum velit mollis. 
-                        Sed laoreet ante non ornare fermentum. Donec vehicula pulvinar nibh, et 
-                        aliquet erat egestas nec. Aliquam arcu urna, interdum vitae lacus eget, 
-                        sodales pulvinar felis. Cras libero lacus, ultricies id augue eu, 
-                        scelerisque tempus felis. Fusce sit amet ligula nunc. Aenean in pharetra
-                        sapien. Donec dignissim justo eget tincidunt pretium. Nulla ut sagittis
-                        odio. Aliquam accumsan, risus a placerat eleifend, erat leo dapibus 
-                        nunc, non aliquam magna massa et lacus. Maecenas arcu metus, maximus et 
-                        nisi sit amet, maximus eleifend orci. Sed dictum massa sed urna 
-                        suscipit, eu dictum nunc convallis. Nulla facilisi. Sed lobortis risus 
-                        sit amet sem posuere auctor. Quisque lacinia nibh a ipsum venenatis, at 
-                        volutpat leo ultricies.
+
+
+
                     </p>
                 </div>
             </article>
             <article class="parcours">
                 <div class="left-side">
-                    <img id="img1" src="https://i.imgur.com/aT2fyJh.jpg" alt="image 1">
-                    <img src="https://i.imgur.com/aT2fyJh.jpg" alt="image 2">
-                    <img src="https://i.imgur.com/aT2fyJh.jpg" alt="image 3">
+                    <img id="img1" src="https://upload.wikimedia.org/wikipedia/fr/1/10/Grande_Arche_Janvier_2023.jpeg" alt="image 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcErvWzW09b6E-5-Wn0lcJ1fFUJGzH8gxDA&s" alt="image 2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/280px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg" alt="image 3">
                 </div>
                 <div class="right-side">
-                    <h2>Nom du parcours</h2>
+                    <h2>Parcours Élégance Parisienne : Entre Tradition et Modernité</h2>
                     <nav>
                         <ul>
-                            <li>tag</li>
-                            <li>tag</li>
-                            <li>tag</li>
+                            <li>PatrimoineCulturel</li>
+                            <li>ArchitectureModerne</li>
+                            <li>ArtLyrique</li>
                         </ul>
                     </nav>
                     <p>
-                        Dui metus nec lacus. Ut ac malesuada dolor, in sagittis neque. 
-                        Suspendisse sollicitudin urna libero, in ullamcorper nisl elementum et.
-
-
-                        Sed vehicula accumsan quam, auctor pharetra neque varius eget. 
-                        Suspendisse maximus, tortor vitae sagittis dictum, nulla libero 
-                        facilisis nisl, vel accumsan nunc leo vitae nulla. Quisque leo ante, 
-                        aliquam quis tellus et, maximus pulvinar velit. Integer aliquet accumsan
-                        turpis a faucibus. Curabitur bibendum nibh vel lectus euismod, ac 
-                        finibus magna facilisis. Donec posuere rutrum ante, ac vehicula metus. 
-                        Suspendisse potenti. Aliquam in ipsum viverra, feugiat metus ac, commodo
-                        magna. Curabitur molestie feugiat sem sit amet porta. Donec ex ex, 
-                        tristique nec quam tincidunt, pretium bibendum ante. Quisque ornare non 
-                        nunc ac imperdiet. Aenean vel posuere dolor, id maximus est.
-
-
-                        Suspendisse semper urna sed quam viverra, eget interdum velit mollis. 
-                        Sed laoreet ante non ornare fermentum. Donec vehicula pulvinar nibh, et 
-                        aliquet erat egestas nec. Aliquam arcu urna, interdum vitae lacus eget, 
-                        sodales pulvinar felis. Cras libero lacus, ultricies id augue eu, 
-                        scelerisque tempus felis. Fusce sit amet ligula nunc. Aenean in pharetra
-                        sapien. Donec dignissim justo eget tincidunt pretium. Nulla ut sagittis
-                        odio. Aliquam accumsan, risus a placerat eleifend, erat leo dapibus 
-                        nunc, non aliquam magna massa et lacus. Maecenas arcu metus, maximus et 
-                        nisi sit amet, maximus eleifend orci. Sed dictum massa sed urna 
-                        suscipit, eu dictum nunc convallis. Nulla facilisi. Sed lobortis risus 
-                        sit amet sem posuere auctor. Quisque lacinia nibh a ipsum venenatis, at 
-                        volutpat leo ultricies.
+                    Bienvenue dans notre parcours "Élégance Parisienne", une immersion de demi-journée mêlant histoire, architecture et grandeur parisienne. Découvrez trois joyaux emblématiques de la capitale française :Arc de Triomphe : Commencez par ce symbole de la grandeur nationale, offrant une vue panoramique inégalée sur Paris depuis sa terrasse. Imprégnez-vous de l'histoire et de l'architecture majestueuse de cette monumentale structure érigée par Napoléon.La Défense : Poursuivez votre exploration dans le quartier moderne de La Défense, où les gratte-ciels audacieux rivalisent avec le ciel parisien. Plongez dans l'atmosphère dynamique d'un centre d'affaires contemporain et découvrez l'art urbain à travers ses installations et ses espaces publics.Opéra Garnier : Terminez en beauté à l'Opéra Garnier, un chef-d'œuvre architectural du XIXe siècle. Admirez sa façade opulente et plongez dans son intérieur somptueux lors d'une visite guidée. Découvrez les histoires fascinantes qui se cachent derrière les coulisses de cet emblème de l'art lyrique et de la danse.Ce parcours vous invite à un voyage à travers le temps et les styles architecturaux, vous offrant une expérience enrichissante et inoubliable au cœur de Paris.
                     </p>
                 </div>
             </article>
