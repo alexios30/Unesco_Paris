@@ -174,14 +174,27 @@ $sections = [
                             echo "Opera"; break;
                         case "fr":
                         default:
-                            echo "Arc de Triomphe"; break;
+                            echo "Op&eacute;ra"; break;
                       }
                     ?>
                 </div>
             </div>
         </a>
         <a href='Invalide.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div>
+            <div class='cadrant click' id='m6'>
+                <div class='text'>
+                    <?php
+                      switch($lang) {
+                        case "es":
+                          echo "Los Invalidos"; break;
+                        case "en":
+                        case "fr":
+                        default:
+                          echo "H&ocirc;tel des Invalides"; break;
+                      }
+                    ?>
+                </div>
+            </div>
         </a>
     </div>
     <a href='decouvrir.php?lang=<?= $lang ?>' id='exception3'>
