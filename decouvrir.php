@@ -1,12 +1,26 @@
 <html>
   <head>
-    <title>Participer</title>
+    <title><?php
+    include("checklang.inc.php");
+    switch($lang) {
+        case "fr":
+        echo "Découvrir";
+        break;
+        case "en":
+        echo "Discover";
+        break;
+        case "es":
+        echo "Descubrir";
+        break;
+        default:
+        break;
+    }
+    ?></title>
     <link rel="stylesheet" href="style_participer.css">
     <meta charset="utf-8">
   </head>
   <body>
     <?php
-    include("checklang.inc.php");
     include("navbar.inc.php");
     ?>
 
