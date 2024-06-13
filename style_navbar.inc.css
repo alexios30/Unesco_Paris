@@ -178,6 +178,7 @@ button.menul {
 #langues {
     background-color: #222;
     flex-direction: column;
+    color: #fff;
 }
   
 div.sousl {
