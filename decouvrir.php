@@ -16,8 +16,30 @@
     <!-- Barre de localisation-->
     <div class="location">
             <ul>
-                <li><a class="link_loc" href="index.php">Accueil</a> &nbsp;&nbsp;&nbsp;></li>
-                <li class="current-location">Découvrir</li>
+              <?php
+              switch($lang) {
+                case "fr":
+                  ?>
+                  <li><a class="link_loc" href="index.php">Accueil</a> &nbsp;&nbsp;&nbsp;></li>
+                  <li class="current-location">Découvrir</li>
+                  <?php
+                  break;
+                case "en":
+                  ?>
+                  <li><a class="link_loc" href="index.php">Home</a> &nbsp;&nbsp;&nbsp;></li>
+                  <li class="current-location">Discover</li>
+                  <?php
+                  break;
+                case "es":
+                  ?>
+                  <li><a class="link_loc" href="index.php">Inicio</a> &nbsp;&nbsp;&nbsp;></li>
+                  <li class="current-location">Descubrir</li>
+                  <?php
+                  break;
+                default:
+                  break;
+              }
+              ?>
             </ul>
         </div>
 
