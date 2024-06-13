@@ -175,6 +175,86 @@ include("checklang.inc.php");
                 </section>
             </main>';
             break;
+        case "es":
+            echo '
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.php?lang=' . $lang . '">Inicio</a></li>
+                        >
+                        <li><a id="this" href="">¿Quiénes somos?</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h1>¿QUIÉNES SOMOS?</h1>
+                <hr class="main-line">
+                <p>Somos un equipo de 5 estudiantes en nuestro primer año de BUT Informática en el IUT de Marne-la-Vallée, Francia. Este proyecto se llevó a cabo como parte de un proyecto de mediación cultural y digital en colaboración con la UNESCO con el objetivo de promover un patrimonio cultural en un sitio web de Internet.</p>
+                <hr class="separator-line">
+                <section class="team">
+                    <article class="member">
+                        <div class="top">
+                            <h2>Emilie XU</h2>
+                            <p>Gerente de proyecto</p>
+                            <div class="photo"></div>
+                        </div>
+                        <ul class="links">
+                            <li><a href="https://www.linkedin.com/in/emilie-qiaoxin-xu/">LinkedIn</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">CV</a></li>
+                        </ul>
+                    </article>
+                    <article class="member">
+                        <div class="top">
+                            <h2>Alexis CHAMPAULT</h2>
+                            <p>Desarrollador</p>
+                            <div class="photo"></div>
+                        </div>
+                        <ul class="links">
+                            <li><a href="https://www.linkedin.com/in/champaulta/">LinkedIn</a></li>
+                            <li><a href="https://alexios30.github.io/Champault_Portfolio/">Portfolio</a></li>
+                            <li><a href="https://alexios30.github.io/Champault_Portfolio/include/Champault_Alexis_CV.pdf">CV</a></li>
+                        </ul>
+                    </article>
+                    <article class="member">
+                        <div class="top">
+                            <h2>Romain LONCIN</h2>
+                            <p>Traductor</p>
+                            <div class="photo"></div>
+                        </div>
+                        <ul class="links">
+                            <li><a href="https://www.linkedin.com/in/romain-loncin/">LinkedIn</a></li>
+                            <li><a href="http://perso-etudiant.u-pem.fr/~romain.loncin/portfolio.html">Portfolio</a></li>
+                            <li><a href="http://perso-etudiant.u-pem.fr/~romain.loncin/CV-Romain_LONCIN.pdf">CV</a></li>
+                        </ul>
+                    </article>
+                    <article class="member">
+                        <div class="top">
+                            <h2>Jérémy ZHENG</h2>
+                            <p>Desarrollador</p>
+                            <div class="photo"></div>
+                        </div>
+                        <ul class="links">
+                            <li><a href="https://www.linkedin.com/in/jeremy-zheng-jz/">LinkedIn</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">CV</a></li>
+                        </ul>
+                    </article>
+                    <article class="member">
+                        <div class="top">
+                            <h2>Andrei ACHIRECESEI</h2>
+                            <p>Gerente de base de datos</p>
+                            <div class="photo"></div>
+                        </div>
+                        <ul class="links">
+                            <li><a href="https://www.linkedin.com/in/a-achirecesei/">LinkedIn</a></li>
+                            <li><a href="https://perso-etudiant.u-pem.fr/~achirecesei/">Portfolio</a></li>
+                            <li><a href="https://perso-etudiant.u-pem.fr/~achirecesei/CV_ACHIRECESEI_Andrei.pdf">CV</a></li>
+                        </ul>
+                    </article>
+                </section>
+            </main>';
+            break;
         }
     ?>
     <?php
