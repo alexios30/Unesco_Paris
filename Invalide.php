@@ -126,7 +126,7 @@
         <div class="Champs-Info2">
         </div>
         <div class="description">
-            <p>Photo of Les Invalides today</p>
+            <p>Photo of Les Invalides nowadays</p>
         </div>
         <div class="center-text">
             <p> Les Invalides was founded by Louis XIV in 1670 to provide a refuge for wounded and disabled soldiers of his armies. The project was entrusted to the architect Libéral Bruant, and construction began in 1671. The building was completed in 1676, with additions and improvements continuing over the years.</p>
