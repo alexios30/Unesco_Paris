@@ -107,7 +107,7 @@
   </p>
   <div class="ligne-participer-text" id="ligne"></div>
 
-  <a href=<?php echo "participer_1.php?lang=".$lang."&categorie=tous#ligne"; ?>>
+  <a href=<?php echo "participer.php?lang=".$lang."&categorie=tous#ligne"; ?>>
     <?php
     if ($categorie == "tous") {
       echo "<div class=\"bouton-actif\">";
@@ -133,7 +133,7 @@
     </div>
   </a>
 
-  <a href=<?php echo "participer_1.php?lang=".$lang."&categorie=activite#ligne"; ?>>
+  <a href=<?php echo "participer.php?lang=".$lang."&categorie=activite#ligne"; ?>>
     <?php
     if ($categorie == "activite") {
       echo "<div class=\"bouton-actif\">";
