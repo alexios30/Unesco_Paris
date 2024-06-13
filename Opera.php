@@ -1,6 +1,17 @@
 <html>
   <head>
-    <title>L'Opéra de Paris</title>
+    <title>
+    switch($lang) {
+        case "fr":
+          echo "Opéra de Paris"; break;
+        case "en":
+          echo "Paris"; break;
+        case "es":
+          echo "&Oacute;pera de Paris"; break;
+        default:
+          break;
+    }  
+    </title>
     <link rel="stylesheet" href="Opera.css">
     <meta charset="utf-8">
   </head>
