@@ -1,6 +1,17 @@
 <html>
   <head>
-    <title>Bois de Vincennes</title>
+    <title>
+      <?php
+        switch($lang) {
+          case "es":
+            echo "Bosque de Vincennes"; break;
+          case "fr":
+          case "en":
+          default:
+            echo "Bois de Vincennes"; break;
+        }
+      ?>
+    </title>
     <link rel="stylesheet" href="vincenne.css">
     <meta charset="utf-8">
   </head>
