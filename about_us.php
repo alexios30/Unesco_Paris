@@ -7,7 +7,22 @@ include("checklang.inc.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qui sommes-nous ?</title>
+    <title><?php
+    switch($lang) {
+        case "fr":
+        echo "Qui sommes-nous ?";
+        break;
+        case "en":
+        echo "About Us";
+        break;
+        case "es":
+        echo "¿QUIÉNES SOMOS?";
+        break;
+        default:
+        break;
+    }
+    ?>
+    </title>
     <link rel="stylesheet" href="style_about_us.css">
 </head>
 <body>
