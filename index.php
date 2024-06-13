@@ -126,7 +126,20 @@ $sections = [
     <hr class='ligne'>
     <div class='box2'>
         <a href='Triomphe.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m1'><div class='text'>Arc de Triomphe</div></div>
+            <div class='cadrant click' id='m1'>
+                <div class='text'>
+                    <?php
+                      switch($lang) {
+                        case "es":
+                          echo "Arco de Triunfo"; break;
+                        case "fr":
+                        case "en":
+                        default:
+                          echo "Arc de Triomphe"; break;
+                      }
+                    ?>
+                </div>
+            </div>
         </a>
         <a href='Louvre.php?lang=<?= $lang ?>'>
             <div class='cadrant click' id='m2'><div class='text'>Louvre</div></div>
@@ -135,10 +148,37 @@ $sections = [
             <div class='cadrant click' id='m3'><div class='text'>Notre Dame</div></div>
         </a>
         <a href='Vincennes.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m4'><div class='text'>Bois de Vincennes</div></div>
+            <div class='cadrant click' id='m4'>
+                <div class='text'>
+                    <?php
+                      switch($lang) {
+                        case "es":
+                          echo "Bosque de Vincennes"; break;
+                        case "fr":
+                        case "en":
+                        default:
+                          echo "Bois de Vincennes"; break;
+                      }
+                    ?>
+                </div
+            ></div>
         </a>
         <a href='Opera.php?lang=<?= $lang ?>'>
-            <div class='cadrant click' id='m5'><div class='text'>Op&eacute;ra</div></div>
+            <div class='cadrant click' id='m5'>
+                <div class='text'>
+                    <?php
+                      switch($lang) {
+                        case "es":
+                            echo "&Oacute;pera"; break;
+                        case "en":
+                            echo "Opera"; break;
+                        case "fr":
+                        default:
+                            echo "Arc de Triomphe"; break;
+                      }
+                    ?>
+                </div>
+            </div>
         </a>
         <a href='Invalide.php?lang=<?= $lang ?>'>
             <div class='cadrant click' id='m6'><div class='text'>H&ocirc;tel des Invalides</div></div>
