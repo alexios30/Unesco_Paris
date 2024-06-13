@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcourir</title>
+    <title>
+      <?php
+        switch($lang) {
+          case "fr":
+            echo "Participer"; break;
+          case "en":
+            echo "Participate"; break;
+          case "es":
+            echo "Explorar"; break;
+          default:
+            break;
+        }
+      ?>
+    </title>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
   </head>
