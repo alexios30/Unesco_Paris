@@ -7,7 +7,7 @@
   </head>
 <body>
     <?php
-    include("navbar_nosearch.inc.php");
+    include("navbar.inc.php");
     ?>
     
     <!-- Admin connexion -->

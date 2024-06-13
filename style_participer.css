@@ -205,41 +205,16 @@ img.langue {
   font-weight: bold;
 }
 
-/*
-.bouton-actif {
-  display: inline-block;
-  text-align: center;
-  color: white;
-  background-color: var(--main);
-  font-family: Verdana;
-  padding: 1%;
-  font-weight: bold;
-  margin-left: 5%;
-  margin-top: 5%;
-  width: 12.5%;
-  border: 2px solid var(--main_sub);
-  border-radius: 25px;
+.section-decouvrir {
+  margin: 0;
+  padding: 20px 0;
+  max-width: 80%;
+  justify-content: space-evenly 
 }
-
-.bouton {
-  display: inline-block;
-  text-align: center;
-  color: var(--main_sub);
-  background-color: var(--bg);
-  font-family: Verdana;
-  padding: 1%;
-  font-weight: bold;
-  margin-left: 2%;
-  margin-right: 50%;
-  margin-top: 2%;
-  width: 12.5%;
-  border: 2px solid var(--main_sub);
-  border-radius: 25px;
-}
-*/
 
 .box-activite {
   display: inline-block;
+  vertical-align: top;
   width: 27.5%;
   height: 52.5%;
   padding: 1%;
@@ -248,7 +223,8 @@ img.langue {
   border: 1px solid #fff;
   font-family: Verdana;
 }
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 800px) {
   .box-activite {
       display: inline-block;
       width: 92.5%;

@@ -106,7 +106,7 @@
       <?php echo $ligne->nom_activite; ?>
       </div>
       <p> <?php echo $ligne->description; ?> </p>
-      <div class="boutton-voir-activite"><a href= <?php echo $ligne->lien_page; ?> >Voir l'activit&eacute; !</a></div>
+      <a href= <?php echo $ligne->lien_page; ?> ><div class="boutton-voir-activite">Voir plus !</div></a>
     </div>
 
     <?php

@@ -1,6 +1,5 @@
 <?php
 include("connexion.inc.php");
-$cnx->exec("SET search_path TO paris");
 
 if (isset($_POST["email"]) && isset($_POST["mdp"])) {
     $email = $_POST["email"];
@@ -12,14 +11,13 @@ if (isset($_POST["email"]) && isset($_POST["mdp"])) {
       header("location: admin_connexion.php?r=error");
     }
     else {
-      session_start();
-      $_SESSION["email"] = $email;
-      $_SESSION["mdp"] = $mdp;
+      setcookie("email", $email, time()+60*60, "/");
+      setcookie("mdp", $mdp, time()+60*60, "/");
     }
 }
-elseif (isset($_SESSION["email"]) && isset($_SESSION["mdp"])) {
-  $email = $_SESSION["email"];
-  $mdp = md5($_SESSION["mdp"]);
+elseif (isset($_COOKIE["email"]) && isset($_COOKIE["mdp"])) {
+  $email = $_COOKIE["email"];
+  $mdp = $_COOKIE["mdp"];
 
   $results = $cnx->query("SELECT COUNT(*) FROM login WHERE email = '".$email."' AND password = '".$mdp."'");
   $ligne = $results->fetch(PDO::FETCH_OBJ);
@@ -40,13 +38,13 @@ else {
   </head>
 <body>
     <?php
-    include("navbar_nosearch.inc.php");
+    include("navbar.inc.php");
     ?>
     
     <!-- Admin connexion -->
 
     <h1 class="admin">Administrateur</h1>
-    <p class="admin-text">Vous êtes connecté en tant que <?php echo $_SESSION["email"]; ?> <br> <a href="deconnexion_admin.php">Cliquez ici pour vous déconnecter</a></p>
+    <p class="admin-text">Vous êtes connecté en tant que <?php echo $_COOKIE["email"]; ?> <br> <a href="deconnexion_admin.php">Cliquez ici pour vous déconnecter</a></p>
     <div class="ligne"></div>
 
     <br>

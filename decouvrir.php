@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Participer</title>
-    <link rel="stylesheet" href="style_parcourir.css">
+    <link rel="stylesheet" href="style_participer.css">
     <meta charset="utf-8">
   </head>
   <body>
@@ -57,9 +57,9 @@
     </div>
   </a>
 
-  <a href="decouvrir.php?categorie=monuments#ligne">
+  <a href="decouvrir.php?categorie=monument#ligne">
     <?php
-    if ($categorie == "monuments") {
+    if ($categorie == "monument") {
       echo "<div class=\"bouton-actif\">";
     } else {
       echo "<div class=\"bouton\">";
@@ -69,9 +69,9 @@
     </div>
   </a>
 
-  <a href="decouvrir.php?categorie=verts#ligne">
+  <a href="decouvrir.php?categorie=vert#ligne">
     <?php
-    if ($categorie == "verts") {
+    if ($categorie == "vert") {
       echo "<div class=\"bouton-actif\">";
     } else {
       echo "<div class=\"bouton\">";
@@ -81,9 +81,9 @@
     </div>
   </a>
 
-  <a href="decouvrir.php?categorie=musees#ligne">
+  <a href="decouvrir.php?categorie=musee#ligne">
     <?php
-    if ($categorie == "musees") {
+    if ($categorie == "musee") {
       echo "<div class=\"bouton-actif\">";
     } else {
       echo "<div class=\"bouton\">";
@@ -99,34 +99,38 @@
 
   <?php
   if ($categorie != "tous") {
-    $results = $cnx->query("SELECT * FROM decouvrir WHERE categorie = '".$categorie."'");
+    $results = $cnx->query("SELECT * FROM decouvrir WHERE type = '".$categorie."'");
   } else {
     $results = $cnx->query("SELECT * FROM decouvrir");
   }
 
+  echo "<div class=\"section-decouvrir\">";
   while ($ligne = $results->fetch(PDO::FETCH_OBJ)) {
     ?>
 
     <div class="box-activite">
       <b class="titre-activite">
       <?php
-      if ($ligne->type == "activite") {
-        echo "ACTIVIT&Eacute;";
+      if ($ligne->type == "monument") {
+        echo "MONUMENT";
+      } elseif ($ligne->type == "musee") {
+        echo "MUS&Eacute;E";
       } else {
-        echo "&Eacute;VENEMENT";
+        echo "ESPACES VERT";
       }
       ?>
       </b>
       <img src= <?php echo $ligne->lien_image; ?> >
       <div class="nom-activite">
-      <?php echo $ligne->nom_activite; ?>
+      <?php echo $ligne->nom_decouvrir; ?>
       </div>
       <p> <?php echo $ligne->description; ?> </p>
-      <div class="boutton-voir-activite"><a href= <?php echo $ligne->lien_page; ?> >Voir l'activit&eacute; !</a></div>
+      <div class="boutton-voir-activite"><a href= <?php echo $ligne->lien_page; ?> >Voir plus !</a></div>
     </div>
 
     <?php
   }
+  echo "</div>";
   ?>
 
   <!-- Fin Activites -->
