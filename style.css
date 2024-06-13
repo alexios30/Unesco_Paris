@@ -262,6 +262,7 @@ a {
 #m6 { background-image: url("Images/invalide.jpg") ;}
 
 #exception3 {
+    margin-top: 5vh;
     align-self: center;
 }
 
