@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Notre-Dame de Paris</title>
+    <title>Notre-Dame</title>
     <link rel="stylesheet" href="NotreDame.css">
     <meta charset="utf-8">
   </head>
