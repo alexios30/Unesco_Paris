@@ -60,10 +60,10 @@ echo "
   <!-- Reste du menu hamburger -->
   <div id='menu' style='display: none;'>
     <div class='sous'>
-      <a href='participer.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[1]) . "</a>
+      <a href='participer_1.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[1]) . "</a>
     </div>
     <div class='sous'>
-      <a href='parcourir.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[2]) . "</a>
+      <a href='Parcourir.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[2]) . "</a>
     </div>
     <div class='sous'>
       <a href='decouvrir.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[3]) . "</a>
