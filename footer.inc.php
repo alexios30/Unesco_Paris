@@ -8,7 +8,7 @@ switch ($lang) {
       <div class='links'>
         <a href='about_us.php?lang=$lang'>Qui sommes-nous ?</a> <br>
         <a href=''>Conditions d'utilisations</a> <br>
-        <a href=''>Mentions l&eacute;gales</a> <br>
+        <a href='mention.php?lang=$lang'>Mentions l&eacute;gales</a> <br>
       </div>
     </div>
     ";
@@ -21,7 +21,7 @@ switch ($lang) {
       <div class='links'>
         <a href='about_us.php?lang=$lang'>Who are we ?</a> <br>
         <a href=''>Terms & Conditions</a> <br>
-        <a href=''>Legal mentions</a>
+        <a href='mention.php?lang=$lang'>Legal mentions</a>
       </div>
     </div>
     ";
@@ -34,7 +34,7 @@ switch ($lang) {
       <div class='links'>
         <a href='about_us.php?lang=$lang'>Qui&eacute;nes somos ?</a> <br>
         <a href=''>Condiciones generales</a> <br>
-        <a href=''>Menciones legales</a> <br>
+        <a href='mention.php?lang=$lang'>Menciones legales</a> <br>
       </div>
     </div>
     ";
