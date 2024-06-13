@@ -13,6 +13,7 @@ button:hover {
 
 a {
     color: inherit;
+    width: fit-content;
 }
 
 .click { cursor: pointer; }
@@ -53,15 +54,13 @@ a {
 .about .gros { font-size: 65px; }
 
 .plus {
-    width: 200px;
-    padding: 5px;
+    padding: 10px 30px;
     border: 2px solid var(--sec);
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--sec);
     background-color: var(--bg);
     transition: all 0.5s ease;
-    align-self: end;
 }
 
 .plus:hover {
@@ -69,7 +68,6 @@ a {
 }
 
 #exception {
-    width: 230px;
     align-self: center;
     margin: 5vh 0 0 0;
     color: var(--sec);
@@ -262,6 +260,10 @@ a {
 #m4 { background-image: url("Images/VINCENNE.jpg") ;}
 #m5 { background-image: url("Images/opera.jpg") ;}
 #m6 { background-image: url("Images/invalide.jpg") ;}
+
+#exception3 {
+    align-self: center;
+}
 
 /* Fin Découvrez */
 
