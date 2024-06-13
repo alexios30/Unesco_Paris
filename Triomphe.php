@@ -1,6 +1,17 @@
 <html>
   <head>
-    <title>Arc de Triomphe</title>
+    <title>
+    <?php
+      switch($lang) {
+        case "es":
+          echo "Arco de Triunfo"; break;
+        case "fr":
+        case "en":
+        default:
+          echo "Arc de Triomphe"; break;
+      }
+    ?>  
+    </title>
     <link rel="stylesheet" href="Test.css">
     <meta charset="utf-8">
   </head>
