@@ -63,7 +63,7 @@ echo "
       <a href='participer_1.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[1]) . "</a>
     </div>
     <div class='sous'>
-      <a href='Parcourir.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[2]) . "</a>
+      <a href='parcourir.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[2]) . "</a>
     </div>
     <div class='sous'>
       <a href='decouvrir.php?lang=" . htmlspecialchars($lang) . "'>" . htmlspecialchars($current_lang[3]) . "</a>
