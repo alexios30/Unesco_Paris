@@ -70,5 +70,33 @@ echo "
     </div>
   </div>
 </div>
+
+<script>
+function myFunction(elem) {
+  var x = document.getElementById(elem);
+  if (x.style.display === \"none\") {
+    x.style.display = \"flex\";
+  } else {
+    x.style.display = \"none\";
+  }
+} 
+
+function myFunctionlang(elem) {
+  var x = document.getElementById(elem);
+  var menu = document.getElementById('container');
+  if (x.style.display === 'none') {
+    x.style.display = 'flex';
+    menu.style.transform = 'translateY(61px)';
+  } else {
+    x.style.display = 'none';
+    menu.style.transform = 'translateY(0px)';
+  }
+}
+
+function showResearchBar() {
+  var x = document.getElementById('researchBar');
+  x.style.display = 'flex';
+}
+</script>
 ";
 ?>
