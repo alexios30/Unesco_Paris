@@ -5,9 +5,9 @@
       <?php
         switch($lang) {
           case "fr":
-            echo "Participer"; break;
+            echo "Parcourir"; break;
           case "en":
-            echo "Participate"; break;
+            echo "Routes"; break;
           case "es":
             echo "Explorar"; break;
           default:
